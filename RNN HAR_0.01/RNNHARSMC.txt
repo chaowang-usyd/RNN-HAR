@@ -1,0 +1,4795 @@
+=========== stock name =====================
+
+stock_name =
+
+    'AEX'
+
+==============================================
+if system_dependent('IsDebugMode')==1, dbquit; end
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('load')" style="font-weight:bold">load</a>
+Unable to read MAT-file C:\Users\rpei0277\OneDrive - The University of Sydney (Staff)\Desktop\Project
+2\March01_MinHMod\RNN_HAR_MinhNgoc_modified\RNN HAR_without_autoregressive_component\Realizeddata2000To2022.mat. Not a
+binary MAT-file. Try load -ASCII to read as text.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_HAR_RNN', 'C:\Users\rpei0277\OneDrive - The University of Sydney (Staff)\Desktop\Project 2\March01_MinHMod\RNN_HAR_MinhNgoc_modified\RNN HAR_without_autoregressive_component\Main_HAR_RNN.m', 27)" style="font-weight:bold">Main_HAR_RNN</a> (<a href="matlab: opentoline('C:\Users\rpei0277\OneDrive - The University of Sydney (Staff)\Desktop\Project 2\March01_MinHMod\RNN_HAR_MinhNgoc_modified\RNN HAR_without_autoregressive_component\Main_HAR_RNN.m',27,0)">line 27</a>)
+    data       = load('Realizeddata2000To2022.mat');
+} 
+=========== stock name =====================
+
+stock_name =
+
+    'AEX'
+
+==============================================
+L Current annealing level: 645
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Connected to the parallel pool (number of workers: 12).
+L Markov move 1: L Avarage accept rate = 0.34865
+L Current annealing level: 844
+L Markov move 2: L Avarage accept rate = 0.8301
+L Current annealing level: 995
+L Markov move 3: L Avarage accept rate = 0.8926
+L Current annealing level: 1128
+L Markov move 4: L Avarage accept rate = 0.90125
+L Current annealing level: 1256
+L Markov move 5: L Avarage accept rate = 0.91435
+L Current annealing level: 1385
+L Markov move 6: L Avarage accept rate = 0.91565
+L Current annealing level: 1520
+L Markov move 7: L Avarage accept rate = 0.9234
+L Current annealing level: 1661
+L Markov move 8: L Avarage accept rate = 0.9303
+L Current annealing level: 1815
+L Markov move 9: L Avarage accept rate = 0.9317
+L Current annealing level: 1985
+L Markov move 10: L Avarage accept rate = 0.92625
+L Current annealing level: 2168
+L Markov move 11: L Avarage accept rate = 0.9296
+L Current annealing level: 2371
+L Markov move 12: L Avarage accept rate = 0.92665
+L Current annealing level: 2592
+L Markov move 13: L Avarage accept rate = 0.9337
+L Current annealing level: 2830
+L Markov move 14: L Avarage accept rate = 0.93315
+L Current annealing level: 3096
+L Markov move 15: L Avarage accept rate = 0.9304
+L Current annealing level: 3392
+L Markov move 16: L Avarage accept rate = 0.93725
+L Current annealing level: 3709
+L Markov move 17: L Avarage accept rate = 0.9327
+L Current annealing level: 4018
+L Markov move 18: L Avarage accept rate = 0.92465
+L Current annealing level: 4299
+L Markov move 19: L Avarage accept rate = 0.90415
+L Current annealing level: 4542
+L Markov move 20: L Avarage accept rate = 0.87835
+L Current annealing level: 4751
+L Markov move 21: L Avarage accept rate = 0.84965
+L Current annealing level: 4938
+L Markov move 22: L Avarage accept rate = 0.82345
+L Current annealing level: 5119
+L Markov move 23: L Avarage accept rate = 0.7953
+L Current annealing level: 5294
+L Markov move 24: L Avarage accept rate = 0.7744
+L Current annealing level: 5466
+L Markov move 25: L Avarage accept rate = 0.7603
+L Current annealing level: 5649
+L Markov move 26: L Avarage accept rate = 0.76645
+L Current annealing level: 5837
+L Markov move 27: L Avarage accept rate = 0.781
+L Current annealing level: 6045
+L Markov move 28: L Avarage accept rate = 0.8101
+L Current annealing level: 6261
+L Markov move 29: L Avarage accept rate = 0.83725
+L Current annealing level: 6480
+L Markov move 30: L Avarage accept rate = 0.862
+L Current annealing level: 6706
+L Markov move 31: L Avarage accept rate = 0.8777
+L Current annealing level: 6942
+L Markov move 32: L Avarage accept rate = 0.88305
+L Current annealing level: 7202
+L Markov move 33: L Avarage accept rate = 0.88265
+L Current annealing level: 7483
+L Markov move 34: L Avarage accept rate = 0.8773
+L Current annealing level: 7786
+L Markov move 35: L Avarage accept rate = 0.86965
+L Current annealing level: 8089
+L Markov move 36: L Avarage accept rate = 0.86445
+L Current annealing level: 8380
+L Markov move 37: L Avarage accept rate = 0.8452
+L Current annealing level: 8626
+L Markov move 38: L Avarage accept rate = 0.8148
+L Current annealing level: 8846
+L Markov move 39: L Avarage accept rate = 0.7928
+L Current annealing level: 9065
+L Markov move 40: L Avarage accept rate = 0.78098
+L Current annealing level: 9312
+L Markov move 41: L Avarage accept rate = 0.8048
+L Current annealing level: 9620
+L Markov move 42: L Avarage accept rate = 0.84287
+L Current annealing level: 9979
+L Markov move 43: L Avarage accept rate = 0.85743
+L Current annealing level: 10001
+L Markov move 44: L Avarage accept rate = 0.8496
+L Marginal likelihood: -4374.8523
+D Current t: 13
+D Markov move 1: D Avarage accept rate = 0.86547
+D Current t: 50
+D Markov move 2: D Avarage accept rate = 0.86012
+D Current t: 61
+D Markov move 3: D Avarage accept rate = 0.87122
+D Current t: 93
+D Markov move 4: D Avarage accept rate = 0.86955
+D Current t: 110
+D Markov move 5: D Avarage accept rate = 0.85975
+D Current t: 150
+D Markov move 6: D Avarage accept rate = 0.85135
+D Current t: 184
+D Markov move 7: D Avarage accept rate = 0.84773
+D Current t: 221
+D Markov move 8: D Avarage accept rate = 0.84275
+D Current t: 255
+D Markov move 9: D Avarage accept rate = 0.84175
+D Current t: 258
+D Markov move 10: D Avarage accept rate = 0.84082
+D Current t: 299
+D Markov move 11: D Avarage accept rate = 0.8278
+D Current t: 301
+D Markov move 12: D Avarage accept rate = 0.82323
+D Current t: 338
+D Markov move 13: D Avarage accept rate = 0.81875
+D Current t: 379
+D Markov move 14: D Avarage accept rate = 0.8176
+D Current t: 399
+D Markov move 15: D Avarage accept rate = 0.80723
+D Current t: 405
+D Markov move 16: D Avarage accept rate = 0.80388
+D Current t: 408
+D Markov move 17: D Avarage accept rate = 0.82678
+D Current t: 409
+D Markov move 18: D Avarage accept rate = 0.9188
+D Current t: 412
+D Markov move 19: D Avarage accept rate = 0.94652
+D Current t: 419
+D Markov move 20: D Avarage accept rate = 0.94437
+D Current t: 426
+D Markov move 21: D Avarage accept rate = 0.94027
+D Current t: 441
+D Markov move 22: D Avarage accept rate = 0.931
+D Current t: 473
+D Markov move 23: D Avarage accept rate = 0.9288
+D Current t: 504
+D Markov move 24: D Avarage accept rate = 0.91837
+D Current t: 534
+D Markov move 25: D Avarage accept rate = 0.91172
+D Current t: 546
+D Markov move 26: D Avarage accept rate = 0.91025
+D Current t: 663
+D Markov move 27: D Avarage accept rate = 0.91662
+D Current t: 706
+D Markov move 28: D Avarage accept rate = 0.91242
+D Current t: 755
+D Markov move 29: D Avarage accept rate = 0.91032
+D Current t: 832
+D Markov move 30: D Avarage accept rate = 0.91937
+D Current t: 850
+D Markov move 31: D Avarage accept rate = 0.9066
+D Current t: 888
+D Markov move 32: D Avarage accept rate = 0.9124
+D Current t: 890
+D Markov move 33: D Avarage accept rate = 0.89212
+D Current t: 898
+D Markov move 34: D Avarage accept rate = 0.88182
+D Current t: 919
+D Markov move 35: D Avarage accept rate = 0.91712
+D Current t: 927
+D Markov move 36: D Avarage accept rate = 0.90547
+D Current t: 960
+D Markov move 37: D Avarage accept rate = 0.882
+D Current t: 991
+D Markov move 38: D Avarage accept rate = 0.90072
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.083962   
+
+=========== stock name =====================
+
+stock_name =
+
+    'AORD'
+
+==============================================
+L Current annealing level: 633
+L Markov move 1: L Avarage accept rate = 0.7061
+L Current annealing level: 825
+L Markov move 2: L Avarage accept rate = 0.83345
+L Current annealing level: 975
+L Markov move 3: L Avarage accept rate = 0.875
+L Current annealing level: 1110
+L Markov move 4: L Avarage accept rate = 0.8986
+L Current annealing level: 1244
+L Markov move 5: L Avarage accept rate = 0.91295
+L Current annealing level: 1376
+L Markov move 6: L Avarage accept rate = 0.9156
+L Current annealing level: 1507
+L Markov move 7: L Avarage accept rate = 0.9163
+L Current annealing level: 1637
+L Markov move 8: L Avarage accept rate = 0.91375
+L Current annealing level: 1776
+L Markov move 9: L Avarage accept rate = 0.91755
+L Current annealing level: 1927
+L Markov move 10: L Avarage accept rate = 0.9167
+L Current annealing level: 2092
+L Markov move 11: L Avarage accept rate = 0.9197
+L Current annealing level: 2274
+L Markov move 12: L Avarage accept rate = 0.91975
+L Current annealing level: 2466
+L Markov move 13: L Avarage accept rate = 0.9185
+L Current annealing level: 2676
+L Markov move 14: L Avarage accept rate = 0.9166
+L Current annealing level: 2904
+L Markov move 15: L Avarage accept rate = 0.91065
+L Current annealing level: 3153
+L Markov move 16: L Avarage accept rate = 0.9114
+L Current annealing level: 3445
+L Markov move 17: L Avarage accept rate = 0.9107
+L Current annealing level: 3790
+L Markov move 18: L Avarage accept rate = 0.9113
+L Current annealing level: 4179
+L Markov move 19: L Avarage accept rate = 0.9115
+L Current annealing level: 4557
+L Markov move 20: L Avarage accept rate = 0.91265
+L Current annealing level: 4902
+L Markov move 21: L Avarage accept rate = 0.9059
+L Current annealing level: 5197
+L Markov move 22: L Avarage accept rate = 0.8934
+L Current annealing level: 5468
+L Markov move 23: L Avarage accept rate = 0.87645
+L Current annealing level: 5726
+L Markov move 24: L Avarage accept rate = 0.86595
+L Current annealing level: 5973
+L Markov move 25: L Avarage accept rate = 0.8612
+L Current annealing level: 6212
+L Markov move 26: L Avarage accept rate = 0.86265
+L Current annealing level: 6440
+L Markov move 27: L Avarage accept rate = 0.8585
+L Current annealing level: 6664
+L Markov move 28: L Avarage accept rate = 0.86595
+L Current annealing level: 6897
+L Markov move 29: L Avarage accept rate = 0.8741
+L Current annealing level: 7159
+L Markov move 30: L Avarage accept rate = 0.892
+L Current annealing level: 7461
+L Markov move 31: L Avarage accept rate = 0.8984
+L Current annealing level: 7813
+L Markov move 32: L Avarage accept rate = 0.9031
+L Current annealing level: 8213
+L Markov move 33: L Avarage accept rate = 0.9056
+L Current annealing level: 8678
+L Markov move 34: L Avarage accept rate = 0.9052
+L Current annealing level: 9199
+L Markov move 35: L Avarage accept rate = 0.90677
+L Current annealing level: 9756
+L Markov move 36: L Avarage accept rate = 0.90337
+L Current annealing level: 10001
+L Markov move 37: L Avarage accept rate = 0.90362
+L Marginal likelihood: -3907.7932
+D Current t: 29
+D Markov move 1: D Avarage accept rate = 0.9032
+D Current t: 74
+D Markov move 2: D Avarage accept rate = 0.902
+D Current t: 88
+D Markov move 3: D Avarage accept rate = 0.90027
+D Current t: 106
+D Markov move 4: D Avarage accept rate = 0.8981
+D Current t: 149
+D Markov move 5: D Avarage accept rate = 0.895
+D Current t: 185
+D Markov move 6: D Avarage accept rate = 0.8937
+D Current t: 224
+D Markov move 7: D Avarage accept rate = 0.8893
+D Current t: 261
+D Markov move 8: D Avarage accept rate = 0.8836
+D Current t: 269
+D Markov move 9: D Avarage accept rate = 0.88975
+D Current t: 276
+D Markov move 10: D Avarage accept rate = 0.89132
+D Current t: 311
+D Markov move 11: D Avarage accept rate = 0.89005
+D Current t: 390
+D Markov move 12: D Avarage accept rate = 0.89117
+D Current t: 413
+D Markov move 13: D Avarage accept rate = 0.89285
+D Current t: 419
+D Markov move 14: D Avarage accept rate = 0.91992
+D Current t: 422
+D Markov move 15: D Avarage accept rate = 0.859
+D Current t: 424
+D Markov move 16: D Avarage accept rate = 0.86815
+D Current t: 427
+D Markov move 17: D Avarage accept rate = 0.90097
+D Current t: 432
+D Markov move 18: D Avarage accept rate = 0.91765
+D Current t: 438
+D Markov move 19: D Avarage accept rate = 0.909
+D Current t: 444
+D Markov move 20: D Avarage accept rate = 0.9008
+D Current t: 450
+D Markov move 21: D Avarage accept rate = 0.9005
+D Current t: 456
+D Markov move 22: D Avarage accept rate = 0.84173
+D Current t: 471
+D Markov move 23: D Avarage accept rate = 0.82915
+D Current t: 484
+D Markov move 24: D Avarage accept rate = 0.8289
+D Current t: 499
+D Markov move 25: D Avarage accept rate = 0.85413
+D Current t: 545
+D Markov move 26: D Avarage accept rate = 0.81623
+D Current t: 568
+D Markov move 27: D Avarage accept rate = 0.84947
+D Current t: 604
+D Markov move 28: D Avarage accept rate = 0.87365
+D Current t: 705
+D Markov move 29: D Avarage accept rate = 0.90857
+D Current t: 721
+D Markov move 30: D Avarage accept rate = 0.8672
+D Current t: 807
+D Markov move 31: D Avarage accept rate = 0.89037
+D Current t: 852
+D Markov move 32: D Avarage accept rate = 0.89285
+D Current t: 893
+D Markov move 33: D Avarage accept rate = 0.88202
+D Current t: 895
+D Markov move 34: D Avarage accept rate = 0.89585
+D Current t: 916
+D Markov move 35: D Avarage accept rate = 0.8795
+D Current t: 962
+D Markov move 36: D Avarage accept rate = 0.90297
+D Current t: 964
+D Markov move 37: D Avarage accept rate = 0.8954
+D Current t: 989
+D Markov move 38: D Avarage accept rate = 0.88535
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.075646   
+
+=========== stock name =====================
+
+stock_name =
+
+    'BFX'
+
+==============================================
+L Current annealing level: 645
+L Markov move 1: L Avarage accept rate = 0.5264
+L Current annealing level: 842
+L Markov move 2: L Avarage accept rate = 0.8431
+L Current annealing level: 995
+L Markov move 3: L Avarage accept rate = 0.8861
+L Current annealing level: 1131
+L Markov move 4: L Avarage accept rate = 0.90515
+L Current annealing level: 1259
+L Markov move 5: L Avarage accept rate = 0.9097
+L Current annealing level: 1382
+L Markov move 6: L Avarage accept rate = 0.914
+L Current annealing level: 1510
+L Markov move 7: L Avarage accept rate = 0.9171
+L Current annealing level: 1647
+L Markov move 8: L Avarage accept rate = 0.92405
+L Current annealing level: 1794
+L Markov move 9: L Avarage accept rate = 0.92415
+L Current annealing level: 1959
+L Markov move 10: L Avarage accept rate = 0.9293
+L Current annealing level: 2149
+L Markov move 11: L Avarage accept rate = 0.92645
+L Current annealing level: 2368
+L Markov move 12: L Avarage accept rate = 0.92955
+L Current annealing level: 2617
+L Markov move 13: L Avarage accept rate = 0.9273
+L Current annealing level: 2909
+L Markov move 14: L Avarage accept rate = 0.93255
+L Current annealing level: 3229
+L Markov move 15: L Avarage accept rate = 0.9315
+L Current annealing level: 3573
+L Markov move 16: L Avarage accept rate = 0.93415
+L Current annealing level: 3921
+L Markov move 17: L Avarage accept rate = 0.93545
+L Current annealing level: 4238
+L Markov move 18: L Avarage accept rate = 0.9218
+L Current annealing level: 4498
+L Markov move 19: L Avarage accept rate = 0.89615
+L Current annealing level: 4693
+L Markov move 20: L Avarage accept rate = 0.86655
+L Current annealing level: 4849
+L Markov move 21: L Avarage accept rate = 0.8308
+L Current annealing level: 4999
+L Markov move 22: L Avarage accept rate = 0.80725
+L Current annealing level: 5161
+L Markov move 23: L Avarage accept rate = 0.80915
+L Current annealing level: 5353
+L Markov move 24: L Avarage accept rate = 0.83925
+L Current annealing level: 5569
+L Markov move 25: L Avarage accept rate = 0.86505
+L Current annealing level: 5802
+L Markov move 26: L Avarage accept rate = 0.8812
+L Current annealing level: 6052
+L Markov move 27: L Avarage accept rate = 0.8938
+L Current annealing level: 6318
+L Markov move 28: L Avarage accept rate = 0.8993
+L Current annealing level: 6604
+L Markov move 29: L Avarage accept rate = 0.8994
+L Current annealing level: 6896
+L Markov move 30: L Avarage accept rate = 0.89655
+L Current annealing level: 7198
+L Markov move 31: L Avarage accept rate = 0.89905
+L Current annealing level: 7499
+L Markov move 32: L Avarage accept rate = 0.89515
+L Current annealing level: 7800
+L Markov move 33: L Avarage accept rate = 0.8891
+L Current annealing level: 8097
+L Markov move 34: L Avarage accept rate = 0.891
+L Current annealing level: 8403
+L Markov move 35: L Avarage accept rate = 0.89155
+L Current annealing level: 8723
+L Markov move 36: L Avarage accept rate = 0.8954
+L Current annealing level: 9056
+L Markov move 37: L Avarage accept rate = 0.89322
+L Current annealing level: 9407
+L Markov move 38: L Avarage accept rate = 0.8955
+L Current annealing level: 9784
+L Markov move 39: L Avarage accept rate = 0.8915
+L Current annealing level: 10001
+L Markov move 40: L Avarage accept rate = 0.88742
+L Marginal likelihood: -4307.0442
+D Current t: 60
+D Markov move 1: D Avarage accept rate = 0.8858
+D Current t: 102
+D Markov move 2: D Avarage accept rate = 0.88147
+D Current t: 142
+D Markov move 3: D Avarage accept rate = 0.88092
+D Current t: 196
+D Markov move 4: D Avarage accept rate = 0.87402
+D Current t: 235
+D Markov move 5: D Avarage accept rate = 0.87532
+D Current t: 257
+D Markov move 6: D Avarage accept rate = 0.8717
+D Current t: 286
+D Markov move 7: D Avarage accept rate = 0.8755
+D Current t: 300
+D Markov move 8: D Avarage accept rate = 0.86047
+D Current t: 342
+D Markov move 9: D Avarage accept rate = 0.8604
+D Current t: 399
+D Markov move 10: D Avarage accept rate = 0.85927
+D Current t: 406
+D Markov move 11: D Avarage accept rate = 0.86227
+D Current t: 409
+D Markov move 12: D Avarage accept rate = 0.88245
+D Current t: 412
+D Markov move 13: D Avarage accept rate = 0.911
+D Current t: 419
+D Markov move 14: D Avarage accept rate = 0.91752
+D Current t: 426
+D Markov move 15: D Avarage accept rate = 0.91415
+D Current t: 432
+D Markov move 16: D Avarage accept rate = 0.90992
+D Current t: 437
+D Markov move 17: D Avarage accept rate = 0.90657
+D Current t: 444
+D Markov move 18: D Avarage accept rate = 0.90635
+D Current t: 453
+D Markov move 19: D Avarage accept rate = 0.91127
+D Current t: 472
+D Markov move 20: D Avarage accept rate = 0.91147
+D Current t: 483
+D Markov move 21: D Avarage accept rate = 0.91305
+D Current t: 512
+D Markov move 22: D Avarage accept rate = 0.91105
+D Current t: 546
+D Markov move 23: D Avarage accept rate = 0.91062
+D Current t: 572
+D Markov move 24: D Avarage accept rate = 0.90062
+D Current t: 602
+D Markov move 25: D Avarage accept rate = 0.9057
+D Current t: 706
+D Markov move 26: D Avarage accept rate = 0.90777
+D Current t: 800
+D Markov move 27: D Avarage accept rate = 0.90187
+D Current t: 915
+D Markov move 28: D Avarage accept rate = 0.90102
+D Current t: 929
+D Markov move 29: D Avarage accept rate = 0.898
+D Current t: 968
+D Markov move 30: D Avarage accept rate = 0.8901
+D Current t: 991
+D Markov move 31: D Avarage accept rate = 0.8833
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.087317   
+
+=========== stock name =====================
+
+stock_name =
+
+    'BSESN'
+
+==============================================
+L Current annealing level: 646
+L Markov move 1: L Avarage accept rate = 0.58885
+L Current annealing level: 834
+L Markov move 2: L Avarage accept rate = 0.80195
+L Current annealing level: 982
+L Markov move 3: L Avarage accept rate = 0.88665
+L Current annealing level: 1117
+L Markov move 4: L Avarage accept rate = 0.8992
+L Current annealing level: 1241
+L Markov move 5: L Avarage accept rate = 0.90075
+L Current annealing level: 1366
+L Markov move 6: L Avarage accept rate = 0.91
+L Current annealing level: 1494
+L Markov move 7: L Avarage accept rate = 0.91385
+L Current annealing level: 1627
+L Markov move 8: L Avarage accept rate = 0.91405
+L Current annealing level: 1765
+L Markov move 9: L Avarage accept rate = 0.9193
+L Current annealing level: 1914
+L Markov move 10: L Avarage accept rate = 0.921
+L Current annealing level: 2077
+L Markov move 11: L Avarage accept rate = 0.9259
+L Current annealing level: 2262
+L Markov move 12: L Avarage accept rate = 0.9315
+L Current annealing level: 2469
+L Markov move 13: L Avarage accept rate = 0.93215
+L Current annealing level: 2703
+L Markov move 14: L Avarage accept rate = 0.93505
+L Current annealing level: 2960
+L Markov move 15: L Avarage accept rate = 0.933
+L Current annealing level: 3250
+L Markov move 16: L Avarage accept rate = 0.935
+L Current annealing level: 3589
+L Markov move 17: L Avarage accept rate = 0.9309
+L Current annealing level: 3989
+L Markov move 18: L Avarage accept rate = 0.9304
+L Current annealing level: 4422
+L Markov move 19: L Avarage accept rate = 0.9312
+L Current annealing level: 4876
+L Markov move 20: L Avarage accept rate = 0.92485
+L Current annealing level: 5306
+L Markov move 21: L Avarage accept rate = 0.92045
+L Current annealing level: 5674
+L Markov move 22: L Avarage accept rate = 0.9092
+L Current annealing level: 5984
+L Markov move 23: L Avarage accept rate = 0.8932
+L Current annealing level: 6246
+L Markov move 24: L Avarage accept rate = 0.87805
+L Current annealing level: 6478
+L Markov move 25: L Avarage accept rate = 0.8611
+L Current annealing level: 6684
+L Markov move 26: L Avarage accept rate = 0.8422
+L Current annealing level: 6872
+L Markov move 27: L Avarage accept rate = 0.81945
+L Current annealing level: 7060
+L Markov move 28: L Avarage accept rate = 0.813
+L Current annealing level: 7260
+L Markov move 29: L Avarage accept rate = 0.8269
+L Current annealing level: 7482
+L Markov move 30: L Avarage accept rate = 0.85145
+L Current annealing level: 7739
+L Markov move 31: L Avarage accept rate = 0.8762
+L Current annealing level: 8037
+L Markov move 32: L Avarage accept rate = 0.8991
+L Current annealing level: 8351
+L Markov move 33: L Avarage accept rate = 0.9057
+L Current annealing level: 8662
+L Markov move 34: L Avarage accept rate = 0.90465
+L Current annealing level: 8947
+L Markov move 35: L Avarage accept rate = 0.8995
+L Current annealing level: 9206
+L Markov move 36: L Avarage accept rate = 0.89375
+L Current annealing level: 9468
+L Markov move 37: L Avarage accept rate = 0.89692
+L Current annealing level: 9767
+L Markov move 38: L Avarage accept rate = 0.90367
+L Current annealing level: 10001
+L Markov move 39: L Avarage accept rate = 0.90512
+L Marginal likelihood: -4145.8388
+D Current t: 24
+D Markov move 1: D Avarage accept rate = 0.90645
+D Current t: 49
+D Markov move 2: D Avarage accept rate = 0.90705
+D Current t: 76
+D Markov move 3: D Avarage accept rate = 0.90412
+D Current t: 118
+D Markov move 4: D Avarage accept rate = 0.9003
+D Current t: 120
+D Markov move 5: D Avarage accept rate = 0.90277
+D Current t: 129
+D Markov move 6: D Avarage accept rate = 0.90005
+D Current t: 161
+D Markov move 7: D Avarage accept rate = 0.9007
+D Current t: 193
+D Markov move 8: D Avarage accept rate = 0.89715
+D Current t: 224
+D Markov move 9: D Avarage accept rate = 0.8928
+D Current t: 262
+D Markov move 10: D Avarage accept rate = 0.88885
+D Current t: 343
+D Markov move 11: D Avarage accept rate = 0.8804
+D Current t: 376
+D Markov move 12: D Avarage accept rate = 0.87447
+D Current t: 382
+D Markov move 13: D Avarage accept rate = 0.8789
+D Current t: 417
+D Markov move 14: D Avarage accept rate = 0.8784
+D Current t: 421
+D Markov move 15: D Avarage accept rate = 0.877
+D Current t: 427
+D Markov move 16: D Avarage accept rate = 0.88242
+D Current t: 429
+D Markov move 17: D Avarage accept rate = 0.8856
+D Current t: 432
+D Markov move 18: D Avarage accept rate = 0.88787
+D Current t: 434
+D Markov move 19: D Avarage accept rate = 0.8814
+D Current t: 435
+D Markov move 20: D Avarage accept rate = 0.86607
+D Current t: 436
+D Markov move 21: D Avarage accept rate = 0.9514
+D Current t: 441
+D Markov move 22: D Avarage accept rate = 0.9276
+D Current t: 444
+D Markov move 23: D Avarage accept rate = 0.91787
+D Current t: 447
+D Markov move 24: D Avarage accept rate = 0.915
+D Current t: 451
+D Markov move 25: D Avarage accept rate = 0.91375
+D Current t: 458
+D Markov move 26: D Avarage accept rate = 0.91027
+D Current t: 461
+D Markov move 27: D Avarage accept rate = 0.92515
+D Current t: 477
+D Markov move 28: D Avarage accept rate = 0.91942
+D Current t: 498
+D Markov move 29: D Avarage accept rate = 0.91412
+D Current t: 534
+D Markov move 30: D Avarage accept rate = 0.91002
+D Current t: 560
+D Markov move 31: D Avarage accept rate = 0.91502
+D Current t: 577
+D Markov move 32: D Avarage accept rate = 0.91185
+D Current t: 654
+D Markov move 33: D Avarage accept rate = 0.91087
+D Current t: 666
+D Markov move 34: D Avarage accept rate = 0.90942
+D Current t: 670
+D Markov move 35: D Avarage accept rate = 0.9077
+D Current t: 733
+D Markov move 36: D Avarage accept rate = 0.90385
+D Current t: 769
+D Markov move 37: D Avarage accept rate = 0.89815
+D Current t: 808
+D Markov move 38: D Avarage accept rate = 0.8912
+D Current t: 908
+D Markov move 39: D Avarage accept rate = 0.8881
+D Current t: 916
+D Markov move 40: D Avarage accept rate = 0.89105
+D Current t: 950
+D Markov move 41: D Avarage accept rate = 0.8919
+D Current t: 971
+D Markov move 42: D Avarage accept rate = 0.8976
+D Current t: 991
+D Markov move 43: D Avarage accept rate = 0.9051
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.087094   
+
+=========== stock name =====================
+
+stock_name =
+
+    'BVLG'
+
+==============================================
+L Current annealing level: 702
+L Markov move 1: L Avarage accept rate = 0.4617
+L Current annealing level: 908
+L Markov move 2: L Avarage accept rate = 0.8156
+L Current annealing level: 1071
+L Markov move 3: L Avarage accept rate = 0.8803
+L Current annealing level: 1217
+L Markov move 4: L Avarage accept rate = 0.89925
+L Current annealing level: 1360
+L Markov move 5: L Avarage accept rate = 0.9183
+L Current annealing level: 1502
+L Markov move 6: L Avarage accept rate = 0.9237
+L Current annealing level: 1653
+L Markov move 7: L Avarage accept rate = 0.92425
+L Current annealing level: 1810
+L Markov move 8: L Avarage accept rate = 0.9295
+L Current annealing level: 1978
+L Markov move 9: L Avarage accept rate = 0.92785
+L Current annealing level: 2158
+L Markov move 10: L Avarage accept rate = 0.9305
+L Current annealing level: 2346
+L Markov move 11: L Avarage accept rate = 0.9304
+L Current annealing level: 2551
+L Markov move 12: L Avarage accept rate = 0.9317
+L Current annealing level: 2789
+L Markov move 13: L Avarage accept rate = 0.93175
+L Current annealing level: 3065
+L Markov move 14: L Avarage accept rate = 0.93105
+L Current annealing level: 3395
+L Markov move 15: L Avarage accept rate = 0.93605
+L Current annealing level: 3800
+L Markov move 16: L Avarage accept rate = 0.93895
+L Current annealing level: 4242
+L Markov move 17: L Avarage accept rate = 0.9365
+L Current annealing level: 4661
+L Markov move 18: L Avarage accept rate = 0.92905
+L Current annealing level: 5007
+L Markov move 19: L Avarage accept rate = 0.90715
+L Current annealing level: 5253
+L Markov move 20: L Avarage accept rate = 0.88195
+L Current annealing level: 5435
+L Markov move 21: L Avarage accept rate = 0.84875
+L Current annealing level: 5592
+L Markov move 22: L Avarage accept rate = 0.8256
+L Current annealing level: 5749
+L Markov move 23: L Avarage accept rate = 0.815
+L Current annealing level: 5928
+L Markov move 24: L Avarage accept rate = 0.8283
+L Current annealing level: 6141
+L Markov move 25: L Avarage accept rate = 0.85835
+L Current annealing level: 6387
+L Markov move 26: L Avarage accept rate = 0.89
+L Current annealing level: 6653
+L Markov move 27: L Avarage accept rate = 0.89685
+L Current annealing level: 6939
+L Markov move 28: L Avarage accept rate = 0.90045
+L Current annealing level: 7242
+L Markov move 29: L Avarage accept rate = 0.90385
+L Current annealing level: 7549
+L Markov move 30: L Avarage accept rate = 0.8998
+L Current annealing level: 7866
+L Markov move 31: L Avarage accept rate = 0.8992
+L Current annealing level: 8187
+L Markov move 32: L Avarage accept rate = 0.8932
+L Current annealing level: 8521
+L Markov move 33: L Avarage accept rate = 0.8897
+L Current annealing level: 8868
+L Markov move 34: L Avarage accept rate = 0.88775
+L Current annealing level: 9221
+L Markov move 35: L Avarage accept rate = 0.86712
+L Current annealing level: 9547
+L Markov move 36: L Avarage accept rate = 0.84198
+L Current annealing level: 9803
+L Markov move 37: L Avarage accept rate = 0.79445
+L Current annealing level: 10001
+L Markov move 38: L Avarage accept rate = 0.74923
+L Marginal likelihood: -3611.1914
+D Current t: 16
+D Markov move 1: D Avarage accept rate = 0.73117
+D Current t: 53
+D Markov move 2: D Avarage accept rate = 0.7979
+D Current t: 85
+D Markov move 3: D Avarage accept rate = 0.8462
+D Current t: 115
+D Markov move 4: D Avarage accept rate = 0.87732
+D Current t: 125
+D Markov move 5: D Avarage accept rate = 0.86445
+D Current t: 164
+D Markov move 6: D Avarage accept rate = 0.8816
+D Current t: 196
+D Markov move 7: D Avarage accept rate = 0.89562
+D Current t: 244
+D Markov move 8: D Avarage accept rate = 0.89982
+D Current t: 264
+D Markov move 9: D Avarage accept rate = 0.89752
+D Current t: 272
+D Markov move 10: D Avarage accept rate = 0.90165
+D Current t: 274
+D Markov move 11: D Avarage accept rate = 0.89882
+D Current t: 277
+D Markov move 12: D Avarage accept rate = 0.92335
+D Current t: 285
+D Markov move 13: D Avarage accept rate = 0.9255
+D Current t: 293
+D Markov move 14: D Avarage accept rate = 0.93727
+D Current t: 302
+D Markov move 15: D Avarage accept rate = 0.93577
+D Current t: 413
+D Markov move 16: D Avarage accept rate = 0.93205
+D Current t: 501
+D Markov move 17: D Avarage accept rate = 0.9338
+D Current t: 676
+D Markov move 18: D Avarage accept rate = 0.9338
+D Current t: 784
+D Markov move 19: D Avarage accept rate = 0.93677
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.082564   
+
+=========== stock name =====================
+
+stock_name =
+
+    'BVSP'
+
+==============================================
+L Current annealing level: 667
+L Markov move 1: L Avarage accept rate = 0.46675
+L Current annealing level: 863
+L Markov move 2: L Avarage accept rate = 0.8711
+L Current annealing level: 1014
+L Markov move 3: L Avarage accept rate = 0.8876
+L Current annealing level: 1144
+L Markov move 4: L Avarage accept rate = 0.9028
+L Current annealing level: 1267
+L Markov move 5: L Avarage accept rate = 0.91535
+L Current annealing level: 1391
+L Markov move 6: L Avarage accept rate = 0.92015
+L Current annealing level: 1516
+L Markov move 7: L Avarage accept rate = 0.9231
+L Current annealing level: 1652
+L Markov move 8: L Avarage accept rate = 0.9307
+L Current annealing level: 1804
+L Markov move 9: L Avarage accept rate = 0.9274
+L Current annealing level: 1980
+L Markov move 10: L Avarage accept rate = 0.9309
+L Current annealing level: 2176
+L Markov move 11: L Avarage accept rate = 0.92835
+L Current annealing level: 2401
+L Markov move 12: L Avarage accept rate = 0.92665
+L Current annealing level: 2664
+L Markov move 13: L Avarage accept rate = 0.9281
+L Current annealing level: 2989
+L Markov move 14: L Avarage accept rate = 0.9312
+L Current annealing level: 3377
+L Markov move 15: L Avarage accept rate = 0.9293
+L Current annealing level: 3807
+L Markov move 16: L Avarage accept rate = 0.9313
+L Current annealing level: 4209
+L Markov move 17: L Avarage accept rate = 0.93055
+L Current annealing level: 4553
+L Markov move 18: L Avarage accept rate = 0.92635
+L Current annealing level: 4832
+L Markov move 19: L Avarage accept rate = 0.9183
+L Current annealing level: 5066
+L Markov move 20: L Avarage accept rate = 0.89505
+L Current annealing level: 5279
+L Markov move 21: L Avarage accept rate = 0.8797
+L Current annealing level: 5485
+L Markov move 22: L Avarage accept rate = 0.86515
+L Current annealing level: 5691
+L Markov move 23: L Avarage accept rate = 0.86615
+L Current annealing level: 5903
+L Markov move 24: L Avarage accept rate = 0.86885
+L Current annealing level: 6127
+L Markov move 25: L Avarage accept rate = 0.87935
+L Current annealing level: 6375
+L Markov move 26: L Avarage accept rate = 0.88995
+L Current annealing level: 6665
+L Markov move 27: L Avarage accept rate = 0.905
+L Current annealing level: 6996
+L Markov move 28: L Avarage accept rate = 0.9127
+L Current annealing level: 7367
+L Markov move 29: L Avarage accept rate = 0.90935
+L Current annealing level: 7757
+L Markov move 30: L Avarage accept rate = 0.90795
+L Current annealing level: 8159
+L Markov move 31: L Avarage accept rate = 0.9065
+L Current annealing level: 8563
+L Markov move 32: L Avarage accept rate = 0.9117
+L Current annealing level: 8993
+L Markov move 33: L Avarage accept rate = 0.9162
+L Current annealing level: 9451
+L Markov move 34: L Avarage accept rate = 0.91582
+L Current annealing level: 9936
+L Markov move 35: L Avarage accept rate = 0.9102
+L Current annealing level: 10001
+L Markov move 36: L Avarage accept rate = 0.90782
+L Marginal likelihood: -4818.4811
+D Current t: 3
+D Markov move 1: D Avarage accept rate = 0.9082
+D Current t: 69
+D Markov move 2: D Avarage accept rate = 0.90347
+D Current t: 172
+D Markov move 3: D Avarage accept rate = 0.89727
+D Current t: 204
+D Markov move 4: D Avarage accept rate = 0.89865
+D Current t: 274
+D Markov move 5: D Avarage accept rate = 0.89765
+D Current t: 388
+D Markov move 6: D Avarage accept rate = 0.8957
+D Current t: 432
+D Markov move 7: D Avarage accept rate = 0.89327
+D Current t: 438
+D Markov move 8: D Avarage accept rate = 0.88467
+D Current t: 440
+D Markov move 9: D Avarage accept rate = 0.87412
+D Current t: 442
+D Markov move 10: D Avarage accept rate = 0.75808
+D Current t: 443
+D Markov move 11: D Avarage accept rate = 0.9025
+D Current t: 445
+D Markov move 12: D Avarage accept rate = 0.9531
+D Current t: 451
+D Markov move 13: D Avarage accept rate = 0.94215
+D Current t: 455
+D Markov move 14: D Avarage accept rate = 0.93062
+D Current t: 459
+D Markov move 15: D Avarage accept rate = 0.92637
+D Current t: 463
+D Markov move 16: D Avarage accept rate = 0.93315
+D Current t: 468
+D Markov move 17: D Avarage accept rate = 0.9431
+D Current t: 479
+D Markov move 18: D Avarage accept rate = 0.94522
+D Current t: 516
+D Markov move 19: D Avarage accept rate = 0.9428
+D Current t: 595
+D Markov move 20: D Avarage accept rate = 0.93972
+D Current t: 804
+D Markov move 21: D Avarage accept rate = 0.93432
+D Current t: 953
+D Markov move 22: D Avarage accept rate = 0.9349
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.11688    
+
+=========== stock name =====================
+
+stock_name =
+
+    'DJI'
+
+==============================================
+L Current annealing level: 637
+L Markov move 1: L Avarage accept rate = 0.5711
+L Current annealing level: 831
+L Markov move 2: L Avarage accept rate = 0.824
+L Current annealing level: 980
+L Markov move 3: L Avarage accept rate = 0.8742
+L Current annealing level: 1112
+L Markov move 4: L Avarage accept rate = 0.8948
+L Current annealing level: 1243
+L Markov move 5: L Avarage accept rate = 0.9095
+L Current annealing level: 1373
+L Markov move 6: L Avarage accept rate = 0.91155
+L Current annealing level: 1509
+L Markov move 7: L Avarage accept rate = 0.92145
+L Current annealing level: 1648
+L Markov move 8: L Avarage accept rate = 0.9226
+L Current annealing level: 1793
+L Markov move 9: L Avarage accept rate = 0.92405
+L Current annealing level: 1949
+L Markov move 10: L Avarage accept rate = 0.92465
+L Current annealing level: 2122
+L Markov move 11: L Avarage accept rate = 0.9294
+L Current annealing level: 2313
+L Markov move 12: L Avarage accept rate = 0.93335
+L Current annealing level: 2524
+L Markov move 13: L Avarage accept rate = 0.9328
+L Current annealing level: 2760
+L Markov move 14: L Avarage accept rate = 0.93075
+L Current annealing level: 3026
+L Markov move 15: L Avarage accept rate = 0.92845
+L Current annealing level: 3313
+L Markov move 16: L Avarage accept rate = 0.92865
+L Current annealing level: 3630
+L Markov move 17: L Avarage accept rate = 0.92635
+L Current annealing level: 3960
+L Markov move 18: L Avarage accept rate = 0.92665
+L Current annealing level: 4264
+L Markov move 19: L Avarage accept rate = 0.924
+L Current annealing level: 4522
+L Markov move 20: L Avarage accept rate = 0.91535
+L Current annealing level: 4745
+L Markov move 21: L Avarage accept rate = 0.90805
+L Current annealing level: 4940
+L Markov move 22: L Avarage accept rate = 0.89775
+L Current annealing level: 5118
+L Markov move 23: L Avarage accept rate = 0.8772
+L Current annealing level: 5290
+L Markov move 24: L Avarage accept rate = 0.8649
+L Current annealing level: 5459
+L Markov move 25: L Avarage accept rate = 0.8497
+L Current annealing level: 5619
+L Markov move 26: L Avarage accept rate = 0.8315
+L Current annealing level: 5771
+L Markov move 27: L Avarage accept rate = 0.80925
+L Current annealing level: 5917
+L Markov move 28: L Avarage accept rate = 0.78695
+L Current annealing level: 6064
+L Markov move 29: L Avarage accept rate = 0.7725
+L Current annealing level: 6214
+L Markov move 30: L Avarage accept rate = 0.7515
+L Current annealing level: 6378
+L Markov move 31: L Avarage accept rate = 0.74405
+L Current annealing level: 6556
+L Markov move 32: L Avarage accept rate = 0.73225
+L Current annealing level: 6755
+L Markov move 33: L Avarage accept rate = 0.71845
+L Current annealing level: 6980
+L Markov move 34: L Avarage accept rate = 0.6915
+L Current annealing level: 7226
+L Markov move 35: L Avarage accept rate = 0.65425
+L Current annealing level: 7495
+L Markov move 36: L Avarage accept rate = 0.6325
+L Current annealing level: 7784
+L Markov move 37: L Avarage accept rate = 0.62605
+L Current annealing level: 8105
+L Markov move 38: L Avarage accept rate = 0.63565
+L Current annealing level: 8456
+L Markov move 39: L Avarage accept rate = 0.6785
+L Current annealing level: 8832
+L Markov move 40: L Avarage accept rate = 0.7512
+L Current annealing level: 9254
+L Markov move 41: L Avarage accept rate = 0.82103
+L Current annealing level: 9660
+L Markov move 42: L Avarage accept rate = 0.85582
+L Current annealing level: 10001
+L Markov move 43: L Avarage accept rate = 0.86702
+L Marginal likelihood: -4042.1603
+D Current t: 30
+D Markov move 1: D Avarage accept rate = 0.87545
+D Current t: 60
+D Markov move 2: D Avarage accept rate = 0.8736
+D Current t: 77
+D Markov move 3: D Avarage accept rate = 0.87002
+D Current t: 87
+D Markov move 4: D Avarage accept rate = 0.86022
+D Current t: 100
+D Markov move 5: D Avarage accept rate = 0.8886
+D Current t: 115
+D Markov move 6: D Avarage accept rate = 0.89957
+D Current t: 128
+D Markov move 7: D Avarage accept rate = 0.89227
+D Current t: 146
+D Markov move 8: D Avarage accept rate = 0.88875
+D Current t: 177
+D Markov move 9: D Avarage accept rate = 0.88075
+D Current t: 223
+D Markov move 10: D Avarage accept rate = 0.87167
+D Current t: 266
+D Markov move 11: D Avarage accept rate = 0.86265
+D Current t: 281
+D Markov move 12: D Avarage accept rate = 0.85962
+D Current t: 295
+D Markov move 13: D Avarage accept rate = 0.862
+D Current t: 339
+D Markov move 14: D Avarage accept rate = 0.86042
+D Current t: 379
+D Markov move 15: D Avarage accept rate = 0.85387
+D Current t: 419
+D Markov move 16: D Avarage accept rate = 0.85977
+D Current t: 420
+D Markov move 17: D Avarage accept rate = 0.74653
+D Current t: 422
+D Markov move 18: D Avarage accept rate = 0.87297
+D Current t: 425
+D Markov move 19: D Avarage accept rate = 0.86645
+D Current t: 428
+D Markov move 20: D Avarage accept rate = 0.90237
+D Current t: 431
+D Markov move 21: D Avarage accept rate = 0.91752
+D Current t: 433
+D Markov move 22: D Avarage accept rate = 0.92745
+D Current t: 436
+D Markov move 23: D Avarage accept rate = 0.90555
+D Current t: 438
+D Markov move 24: D Avarage accept rate = 0.90802
+D Current t: 440
+D Markov move 25: D Avarage accept rate = 0.91425
+D Current t: 443
+D Markov move 26: D Avarage accept rate = 0.91912
+D Current t: 447
+D Markov move 27: D Avarage accept rate = 0.92002
+D Current t: 453
+D Markov move 28: D Avarage accept rate = 0.91417
+D Current t: 469
+D Markov move 29: D Avarage accept rate = 0.91337
+D Current t: 492
+D Markov move 30: D Avarage accept rate = 0.90517
+D Current t: 587
+D Markov move 31: D Avarage accept rate = 0.90045
+D Current t: 748
+D Markov move 32: D Avarage accept rate = 0.9002
+D Current t: 817
+D Markov move 33: D Avarage accept rate = 0.89377
+D Current t: 908
+D Markov move 34: D Avarage accept rate = 0.89987
+D Current t: 954
+D Markov move 35: D Avarage accept rate = 0.90282
+D Current t: 955
+D Markov move 36: D Avarage accept rate = 0.88277
+D Current t: 973
+D Markov move 37: D Avarage accept rate = 0.88195
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.083445   
+
+=========== stock name =====================
+
+stock_name =
+
+    'FCHI'
+
+==============================================
+L Current annealing level: 648
+L Markov move 1: L Avarage accept rate = 0.5564
+L Current annealing level: 848
+L Markov move 2: L Avarage accept rate = 0.82485
+L Current annealing level: 1002
+L Markov move 3: L Avarage accept rate = 0.88605
+L Current annealing level: 1138
+L Markov move 4: L Avarage accept rate = 0.90025
+L Current annealing level: 1269
+L Markov move 5: L Avarage accept rate = 0.9089
+L Current annealing level: 1402
+L Markov move 6: L Avarage accept rate = 0.9189
+L Current annealing level: 1547
+L Markov move 7: L Avarage accept rate = 0.92175
+L Current annealing level: 1700
+L Markov move 8: L Avarage accept rate = 0.9261
+L Current annealing level: 1860
+L Markov move 9: L Avarage accept rate = 0.92495
+L Current annealing level: 2039
+L Markov move 10: L Avarage accept rate = 0.9292
+L Current annealing level: 2230
+L Markov move 11: L Avarage accept rate = 0.9302
+L Current annealing level: 2434
+L Markov move 12: L Avarage accept rate = 0.92855
+L Current annealing level: 2663
+L Markov move 13: L Avarage accept rate = 0.9304
+L Current annealing level: 2928
+L Markov move 14: L Avarage accept rate = 0.92895
+L Current annealing level: 3201
+L Markov move 15: L Avarage accept rate = 0.92885
+L Current annealing level: 3430
+L Markov move 16: L Avarage accept rate = 0.9231
+L Current annealing level: 3610
+L Markov move 17: L Avarage accept rate = 0.9133
+L Current annealing level: 3761
+L Markov move 18: L Avarage accept rate = 0.89035
+L Current annealing level: 3903
+L Markov move 19: L Avarage accept rate = 0.87835
+L Current annealing level: 4060
+L Markov move 20: L Avarage accept rate = 0.87465
+L Current annealing level: 4256
+L Markov move 21: L Avarage accept rate = 0.891
+L Current annealing level: 4508
+L Markov move 22: L Avarage accept rate = 0.91745
+L Current annealing level: 4779
+L Markov move 23: L Avarage accept rate = 0.9182
+L Current annealing level: 5074
+L Markov move 24: L Avarage accept rate = 0.91645
+L Current annealing level: 5393
+L Markov move 25: L Avarage accept rate = 0.92045
+L Current annealing level: 5746
+L Markov move 26: L Avarage accept rate = 0.9162
+L Current annealing level: 6112
+L Markov move 27: L Avarage accept rate = 0.90885
+L Current annealing level: 6474
+L Markov move 28: L Avarage accept rate = 0.9093
+L Current annealing level: 6830
+L Markov move 29: L Avarage accept rate = 0.9083
+L Current annealing level: 7176
+L Markov move 30: L Avarage accept rate = 0.9088
+L Current annealing level: 7544
+L Markov move 31: L Avarage accept rate = 0.914
+L Current annealing level: 7947
+L Markov move 32: L Avarage accept rate = 0.91815
+L Current annealing level: 8425
+L Markov move 33: L Avarage accept rate = 0.9229
+L Current annealing level: 8957
+L Markov move 34: L Avarage accept rate = 0.92335
+L Current annealing level: 9504
+L Markov move 35: L Avarage accept rate = 0.9198
+L Current annealing level: 10001
+L Markov move 36: L Avarage accept rate = 0.9121
+L Marginal likelihood: -4565.0517
+D Current t: 10
+D Markov move 1: D Avarage accept rate = 0.91055
+D Current t: 40
+D Markov move 2: D Avarage accept rate = 0.90485
+D Current t: 90
+D Markov move 3: D Avarage accept rate = 0.9043
+D Current t: 130
+D Markov move 4: D Avarage accept rate = 0.90285
+D Current t: 162
+D Markov move 5: D Avarage accept rate = 0.89265
+D Current t: 163
+D Markov move 6: D Avarage accept rate = 0.8928
+D Current t: 233
+D Markov move 7: D Avarage accept rate = 0.88522
+D Current t: 398
+D Markov move 8: D Avarage accept rate = 0.86122
+D Current t: 406
+D Markov move 9: D Avarage accept rate = 0.8696
+D Current t: 407
+D Markov move 10: D Avarage accept rate = 0.85305
+D Current t: 408
+D Markov move 11: D Avarage accept rate = 0.85117
+D Current t: 411
+D Markov move 12: D Avarage accept rate = 0.88642
+D Current t: 416
+D Markov move 13: D Avarage accept rate = 0.87377
+D Current t: 419
+D Markov move 14: D Avarage accept rate = 0.8754
+D Current t: 423
+D Markov move 15: D Avarage accept rate = 0.88065
+D Current t: 428
+D Markov move 16: D Avarage accept rate = 0.8822
+D Current t: 434
+D Markov move 17: D Avarage accept rate = 0.88827
+D Current t: 448
+D Markov move 18: D Avarage accept rate = 0.88675
+D Current t: 452
+D Markov move 19: D Avarage accept rate = 0.88677
+D Current t: 473
+D Markov move 20: D Avarage accept rate = 0.88347
+D Current t: 507
+D Markov move 21: D Avarage accept rate = 0.8873
+D Current t: 549
+D Markov move 22: D Avarage accept rate = 0.88935
+D Current t: 571
+D Markov move 23: D Avarage accept rate = 0.88615
+D Current t: 659
+D Markov move 24: D Avarage accept rate = 0.88345
+D Current t: 706
+D Markov move 25: D Avarage accept rate = 0.88472
+D Current t: 743
+D Markov move 26: D Avarage accept rate = 0.8804
+D Current t: 755
+D Markov move 27: D Avarage accept rate = 0.88117
+D Current t: 849
+D Markov move 28: D Avarage accept rate = 0.88952
+D Current t: 905
+D Markov move 29: D Avarage accept rate = 0.90185
+D Current t: 913
+D Markov move 30: D Avarage accept rate = 0.90215
+D Current t: 919
+D Markov move 31: D Avarage accept rate = 0.9007
+D Current t: 939
+D Markov move 32: D Avarage accept rate = 0.89885
+D Current t: 991
+D Markov move 33: D Avarage accept rate = 0.89525
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.095293   
+
+=========== stock name =====================
+
+stock_name =
+
+    'FTMIB'
+
+==============================================
+L Current annealing level: 669
+L Markov move 1: L Avarage accept rate = 0.62585
+L Current annealing level: 871
+L Markov move 2: L Avarage accept rate = 0.84375
+L Current annealing level: 1028
+L Markov move 3: L Avarage accept rate = 0.8874
+L Current annealing level: 1167
+L Markov move 4: L Avarage accept rate = 0.90245
+L Current annealing level: 1297
+L Markov move 5: L Avarage accept rate = 0.9108
+L Current annealing level: 1427
+L Markov move 6: L Avarage accept rate = 0.91555
+L Current annealing level: 1562
+L Markov move 7: L Avarage accept rate = 0.9176
+L Current annealing level: 1703
+L Markov move 8: L Avarage accept rate = 0.91875
+L Current annealing level: 1850
+L Markov move 9: L Avarage accept rate = 0.92585
+L Current annealing level: 2008
+L Markov move 10: L Avarage accept rate = 0.9296
+L Current annealing level: 2190
+L Markov move 11: L Avarage accept rate = 0.93165
+L Current annealing level: 2396
+L Markov move 12: L Avarage accept rate = 0.93385
+L Current annealing level: 2628
+L Markov move 13: L Avarage accept rate = 0.93445
+L Current annealing level: 2893
+L Markov move 14: L Avarage accept rate = 0.93855
+L Current annealing level: 3179
+L Markov move 15: L Avarage accept rate = 0.93635
+L Current annealing level: 3450
+L Markov move 16: L Avarage accept rate = 0.92885
+L Current annealing level: 3679
+L Markov move 17: L Avarage accept rate = 0.9092
+L Current annealing level: 3877
+L Markov move 18: L Avarage accept rate = 0.8822
+L Current annealing level: 4061
+L Markov move 19: L Avarage accept rate = 0.85095
+L Current annealing level: 4246
+L Markov move 20: L Avarage accept rate = 0.8009
+L Current annealing level: 4446
+L Markov move 21: L Avarage accept rate = 0.76065
+L Current annealing level: 4659
+L Markov move 22: L Avarage accept rate = 0.71975
+L Current annealing level: 4894
+L Markov move 23: L Avarage accept rate = 0.692
+L Current annealing level: 5151
+L Markov move 24: L Avarage accept rate = 0.66975
+L Current annealing level: 5425
+L Markov move 25: L Avarage accept rate = 0.64545
+L Current annealing level: 5706
+L Markov move 26: L Avarage accept rate = 0.64145
+L Current annealing level: 5990
+L Markov move 27: L Avarage accept rate = 0.67465
+L Current annealing level: 6309
+L Markov move 28: L Avarage accept rate = 0.7281
+L Current annealing level: 6667
+L Markov move 29: L Avarage accept rate = 0.7879
+L Current annealing level: 7080
+L Markov move 30: L Avarage accept rate = 0.84965
+L Current annealing level: 7573
+L Markov move 31: L Avarage accept rate = 0.8947
+L Current annealing level: 8116
+L Markov move 32: L Avarage accept rate = 0.89765
+L Current annealing level: 8677
+L Markov move 33: L Avarage accept rate = 0.9038
+L Current annealing level: 9231
+L Markov move 34: L Avarage accept rate = 0.8981
+L Current annealing level: 9741
+L Markov move 35: L Avarage accept rate = 0.89107
+L Current annealing level: 10001
+L Markov move 36: L Avarage accept rate = 0.88645
+L Marginal likelihood: -5064.0095
+D Current t: 90
+D Markov move 1: D Avarage accept rate = 0.88002
+D Current t: 197
+D Markov move 2: D Avarage accept rate = 0.87842
+D Current t: 261
+D Markov move 3: D Avarage accept rate = 0.87315
+D Current t: 337
+D Markov move 4: D Avarage accept rate = 0.86452
+D Current t: 401
+D Markov move 5: D Avarage accept rate = 0.85962
+D Current t: 407
+D Markov move 6: D Avarage accept rate = 0.86215
+D Current t: 411
+D Markov move 7: D Avarage accept rate = 0.85772
+D Current t: 417
+D Markov move 8: D Avarage accept rate = 0.85373
+D Current t: 420
+D Markov move 9: D Avarage accept rate = 0.9126
+D Current t: 438
+D Markov move 10: D Avarage accept rate = 0.92405
+D Current t: 441
+D Markov move 11: D Avarage accept rate = 0.90165
+D Current t: 578
+D Markov move 12: D Avarage accept rate = 0.8718
+D Current t: 688
+D Markov move 13: D Avarage accept rate = 0.87515
+D Current t: 758
+D Markov move 14: D Avarage accept rate = 0.8547
+D Current t: 916
+D Markov move 15: D Avarage accept rate = 0.85565
+D Current t: 919
+D Markov move 16: D Avarage accept rate = 0.87802
+D Current t: 987
+D Markov move 17: D Avarage accept rate = 0.8485
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}        0.1145    
+
+=========== stock name =====================
+
+stock_name =
+
+    'FTSE'
+
+==============================================
+L Current annealing level: 631
+L Markov move 1: L Avarage accept rate = 0.51735
+L Current annealing level: 828
+L Markov move 2: L Avarage accept rate = 0.80275
+L Current annealing level: 983
+L Markov move 3: L Avarage accept rate = 0.88675
+L Current annealing level: 1122
+L Markov move 4: L Avarage accept rate = 0.8972
+L Current annealing level: 1255
+L Markov move 5: L Avarage accept rate = 0.9121
+L Current annealing level: 1386
+L Markov move 6: L Avarage accept rate = 0.91445
+L Current annealing level: 1520
+L Markov move 7: L Avarage accept rate = 0.91625
+L Current annealing level: 1657
+L Markov move 8: L Avarage accept rate = 0.91785
+L Current annealing level: 1801
+L Markov move 9: L Avarage accept rate = 0.9195
+L Current annealing level: 1957
+L Markov move 10: L Avarage accept rate = 0.9198
+L Current annealing level: 2126
+L Markov move 11: L Avarage accept rate = 0.92555
+L Current annealing level: 2316
+L Markov move 12: L Avarage accept rate = 0.92595
+L Current annealing level: 2528
+L Markov move 13: L Avarage accept rate = 0.9279
+L Current annealing level: 2764
+L Markov move 14: L Avarage accept rate = 0.9333
+L Current annealing level: 3018
+L Markov move 15: L Avarage accept rate = 0.93235
+L Current annealing level: 3293
+L Markov move 16: L Avarage accept rate = 0.9344
+L Current annealing level: 3588
+L Markov move 17: L Avarage accept rate = 0.93645
+L Current annealing level: 3876
+L Markov move 18: L Avarage accept rate = 0.92745
+L Current annealing level: 4141
+L Markov move 19: L Avarage accept rate = 0.91045
+L Current annealing level: 4373
+L Markov move 20: L Avarage accept rate = 0.89295
+L Current annealing level: 4580
+L Markov move 21: L Avarage accept rate = 0.8734
+L Current annealing level: 4766
+L Markov move 22: L Avarage accept rate = 0.87195
+L Current annealing level: 4935
+L Markov move 23: L Avarage accept rate = 0.8713
+L Current annealing level: 5094
+L Markov move 24: L Avarage accept rate = 0.8806
+L Current annealing level: 5258
+L Markov move 25: L Avarage accept rate = 0.87775
+L Current annealing level: 5436
+L Markov move 26: L Avarage accept rate = 0.88715
+L Current annealing level: 5647
+L Markov move 27: L Avarage accept rate = 0.89175
+L Current annealing level: 5921
+L Markov move 28: L Avarage accept rate = 0.90025
+L Current annealing level: 6273
+L Markov move 29: L Avarage accept rate = 0.90215
+L Current annealing level: 6705
+L Markov move 30: L Avarage accept rate = 0.89985
+L Current annealing level: 7201
+L Markov move 31: L Avarage accept rate = 0.89905
+L Current annealing level: 7775
+L Markov move 32: L Avarage accept rate = 0.90025
+L Current annealing level: 8429
+L Markov move 33: L Avarage accept rate = 0.89395
+L Current annealing level: 9121
+L Markov move 34: L Avarage accept rate = 0.88647
+L Current annealing level: 9769
+L Markov move 35: L Avarage accept rate = 0.8697
+L Current annealing level: 10001
+L Markov move 36: L Avarage accept rate = 0.8639
+L Marginal likelihood: -4038.6331
+D Current t: 59
+D Markov move 1: D Avarage accept rate = 0.86127
+D Current t: 106
+D Markov move 2: D Avarage accept rate = 0.85517
+D Current t: 141
+D Markov move 3: D Avarage accept rate = 0.85747
+D Current t: 251
+D Markov move 4: D Avarage accept rate = 0.85037
+D Current t: 270
+D Markov move 5: D Avarage accept rate = 0.85517
+D Current t: 307
+D Markov move 6: D Avarage accept rate = 0.85782
+D Current t: 312
+D Markov move 7: D Avarage accept rate = 0.86365
+D Current t: 347
+D Markov move 8: D Avarage accept rate = 0.85657
+D Current t: 391
+D Markov move 9: D Avarage accept rate = 0.8548
+D Current t: 411
+D Markov move 10: D Avarage accept rate = 0.85728
+D Current t: 414
+D Markov move 11: D Avarage accept rate = 0.8613
+D Current t: 419
+D Markov move 12: D Avarage accept rate = 0.85747
+D Current t: 420
+D Markov move 13: D Avarage accept rate = 0.85317
+D Current t: 421
+D Markov move 14: D Avarage accept rate = 0.78312
+D Current t: 424
+D Markov move 15: D Avarage accept rate = 0.8855
+D Current t: 429
+D Markov move 16: D Avarage accept rate = 0.90237
+D Current t: 432
+D Markov move 17: D Avarage accept rate = 0.9147
+D Current t: 435
+D Markov move 18: D Avarage accept rate = 0.92045
+D Current t: 439
+D Markov move 19: D Avarage accept rate = 0.92417
+D Current t: 444
+D Markov move 20: D Avarage accept rate = 0.92725
+D Current t: 452
+D Markov move 21: D Avarage accept rate = 0.93197
+D Current t: 457
+D Markov move 22: D Avarage accept rate = 0.918
+D Current t: 466
+D Markov move 23: D Avarage accept rate = 0.91632
+D Current t: 484
+D Markov move 24: D Avarage accept rate = 0.9203
+D Current t: 485
+D Markov move 25: D Avarage accept rate = 0.90092
+D Current t: 494
+D Markov move 26: D Avarage accept rate = 0.89737
+D Current t: 507
+D Markov move 27: D Avarage accept rate = 0.89075
+D Current t: 520
+D Markov move 28: D Avarage accept rate = 0.86912
+D Current t: 545
+D Markov move 29: D Avarage accept rate = 0.86415
+D Current t: 555
+D Markov move 30: D Avarage accept rate = 0.84935
+D Current t: 577
+D Markov move 31: D Avarage accept rate = 0.83755
+D Current t: 582
+D Markov move 32: D Avarage accept rate = 0.82685
+D Current t: 604
+D Markov move 33: D Avarage accept rate = 0.84157
+D Current t: 643
+D Markov move 34: D Avarage accept rate = 0.85397
+D Current t: 715
+D Markov move 35: D Avarage accept rate = 0.86882
+D Current t: 872
+D Markov move 36: D Avarage accept rate = 0.88172
+D Current t: 893
+D Markov move 37: D Avarage accept rate = 0.85342
+D Current t: 916
+D Markov move 38: D Avarage accept rate = 0.85212
+D Current t: 922
+D Markov move 39: D Avarage accept rate = 0.85235
+D Current t: 956
+D Markov move 40: D Avarage accept rate = 0.86077
+D Current t: 987
+D Markov move 41: D Avarage accept rate = 0.8591
+D Current t: 991
+D Markov move 42: D Avarage accept rate = 0.8504
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.08608    
+
+=========== stock name =====================
+
+stock_name =
+
+    'GDAXI'
+
+==============================================
+L Current annealing level: 651
+L Markov move 1: L Avarage accept rate = 0.5461
+L Current annealing level: 852
+L Markov move 2: L Avarage accept rate = 0.78795
+L Current annealing level: 1007
+L Markov move 3: L Avarage accept rate = 0.88945
+L Current annealing level: 1142
+L Markov move 4: L Avarage accept rate = 0.9129
+L Current annealing level: 1272
+L Markov move 5: L Avarage accept rate = 0.91615
+L Current annealing level: 1398
+L Markov move 6: L Avarage accept rate = 0.9257
+L Current annealing level: 1528
+L Markov move 7: L Avarage accept rate = 0.9268
+L Current annealing level: 1665
+L Markov move 8: L Avarage accept rate = 0.92895
+L Current annealing level: 1813
+L Markov move 9: L Avarage accept rate = 0.93075
+L Current annealing level: 1975
+L Markov move 10: L Avarage accept rate = 0.9332
+L Current annealing level: 2158
+L Markov move 11: L Avarage accept rate = 0.9377
+L Current annealing level: 2368
+L Markov move 12: L Avarage accept rate = 0.93745
+L Current annealing level: 2621
+L Markov move 13: L Avarage accept rate = 0.939
+L Current annealing level: 2910
+L Markov move 14: L Avarage accept rate = 0.93825
+L Current annealing level: 3221
+L Markov move 15: L Avarage accept rate = 0.93555
+L Current annealing level: 3523
+L Markov move 16: L Avarage accept rate = 0.92855
+L Current annealing level: 3780
+L Markov move 17: L Avarage accept rate = 0.90915
+L Current annealing level: 3984
+L Markov move 18: L Avarage accept rate = 0.88075
+L Current annealing level: 4147
+L Markov move 19: L Avarage accept rate = 0.85105
+L Current annealing level: 4293
+L Markov move 20: L Avarage accept rate = 0.8285
+L Current annealing level: 4448
+L Markov move 21: L Avarage accept rate = 0.8196
+L Current annealing level: 4632
+L Markov move 22: L Avarage accept rate = 0.83135
+L Current annealing level: 4844
+L Markov move 23: L Avarage accept rate = 0.86485
+L Current annealing level: 5079
+L Markov move 24: L Avarage accept rate = 0.88895
+L Current annealing level: 5326
+L Markov move 25: L Avarage accept rate = 0.9009
+L Current annealing level: 5571
+L Markov move 26: L Avarage accept rate = 0.9034
+L Current annealing level: 5823
+L Markov move 27: L Avarage accept rate = 0.9036
+L Current annealing level: 6098
+L Markov move 28: L Avarage accept rate = 0.90535
+L Current annealing level: 6372
+L Markov move 29: L Avarage accept rate = 0.9022
+L Current annealing level: 6639
+L Markov move 30: L Avarage accept rate = 0.89305
+L Current annealing level: 6907
+L Markov move 31: L Avarage accept rate = 0.8883
+L Current annealing level: 7173
+L Markov move 32: L Avarage accept rate = 0.8865
+L Current annealing level: 7451
+L Markov move 33: L Avarage accept rate = 0.8866
+L Current annealing level: 7755
+L Markov move 34: L Avarage accept rate = 0.8865
+L Current annealing level: 8112
+L Markov move 35: L Avarage accept rate = 0.89025
+L Current annealing level: 8501
+L Markov move 36: L Avarage accept rate = 0.89125
+L Current annealing level: 8908
+L Markov move 37: L Avarage accept rate = 0.8817
+L Current annealing level: 9330
+L Markov move 38: L Avarage accept rate = 0.87625
+L Current annealing level: 9758
+L Markov move 39: L Avarage accept rate = 0.87552
+L Current annealing level: 10001
+L Markov move 40: L Avarage accept rate = 0.87252
+L Marginal likelihood: -4579.4142
+D Current t: 51
+D Markov move 1: D Avarage accept rate = 0.87277
+D Current t: 108
+D Markov move 2: D Avarage accept rate = 0.87447
+D Current t: 189
+D Markov move 3: D Avarage accept rate = 0.87252
+D Current t: 241
+D Markov move 4: D Avarage accept rate = 0.8675
+D Current t: 312
+D Markov move 5: D Avarage accept rate = 0.86335
+D Current t: 413
+D Markov move 6: D Avarage accept rate = 0.86862
+D Current t: 419
+D Markov move 7: D Avarage accept rate = 0.876
+D Current t: 422
+D Markov move 8: D Avarage accept rate = 0.89025
+D Current t: 426
+D Markov move 9: D Avarage accept rate = 0.88572
+D Current t: 428
+D Markov move 10: D Avarage accept rate = 0.87977
+D Current t: 430
+D Markov move 11: D Avarage accept rate = 0.87092
+D Current t: 434
+D Markov move 12: D Avarage accept rate = 0.8698
+D Current t: 442
+D Markov move 13: D Avarage accept rate = 0.87045
+D Current t: 453
+D Markov move 14: D Avarage accept rate = 0.86797
+D Current t: 482
+D Markov move 15: D Avarage accept rate = 0.87327
+D Current t: 516
+D Markov move 16: D Avarage accept rate = 0.87395
+D Current t: 553
+D Markov move 17: D Avarage accept rate = 0.87337
+D Current t: 578
+D Markov move 18: D Avarage accept rate = 0.87602
+D Current t: 580
+D Markov move 19: D Avarage accept rate = 0.88305
+D Current t: 663
+D Markov move 20: D Avarage accept rate = 0.8819
+D Current t: 712
+D Markov move 21: D Avarage accept rate = 0.88295
+D Current t: 800
+D Markov move 22: D Avarage accept rate = 0.88442
+D Current t: 809
+D Markov move 23: D Avarage accept rate = 0.88772
+D Current t: 889
+D Markov move 24: D Avarage accept rate = 0.884
+D Current t: 891
+D Markov move 25: D Avarage accept rate = 0.88885
+D Current t: 917
+D Markov move 26: D Avarage accept rate = 0.88877
+D Current t: 920
+D Markov move 27: D Avarage accept rate = 0.8897
+D Current t: 937
+D Markov move 28: D Avarage accept rate = 0.88505
+D Current t: 960
+D Markov move 29: D Avarage accept rate = 0.88287
+D Current t: 988
+D Markov move 30: D Avarage accept rate = 0.88515
+D Current t: 989
+D Markov move 31: D Avarage accept rate = 0.8847
+D Current t: 991
+D Markov move 32: D Avarage accept rate = 0.87857
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.098982   
+
+=========== stock name =====================
+
+stock_name =
+
+    'GSPTSE'
+
+==============================================
+L Current annealing level: 628
+L Markov move 1: L Avarage accept rate = 0.24415
+L Current annealing level: 819
+L Markov move 2: L Avarage accept rate = 0.7656
+L Current annealing level: 969
+L Markov move 3: L Avarage accept rate = 0.87985
+L Current annealing level: 1102
+L Markov move 4: L Avarage accept rate = 0.90185
+L Current annealing level: 1232
+L Markov move 5: L Avarage accept rate = 0.9152
+L Current annealing level: 1361
+L Markov move 6: L Avarage accept rate = 0.92345
+L Current annealing level: 1488
+L Markov move 7: L Avarage accept rate = 0.92655
+L Current annealing level: 1617
+L Markov move 8: L Avarage accept rate = 0.92775
+L Current annealing level: 1755
+L Markov move 9: L Avarage accept rate = 0.93515
+L Current annealing level: 1901
+L Markov move 10: L Avarage accept rate = 0.931
+L Current annealing level: 2061
+L Markov move 11: L Avarage accept rate = 0.93325
+L Current annealing level: 2232
+L Markov move 12: L Avarage accept rate = 0.92975
+L Current annealing level: 2415
+L Markov move 13: L Avarage accept rate = 0.92725
+L Current annealing level: 2618
+L Markov move 14: L Avarage accept rate = 0.92515
+L Current annealing level: 2841
+L Markov move 15: L Avarage accept rate = 0.9242
+L Current annealing level: 3094
+L Markov move 16: L Avarage accept rate = 0.92715
+L Current annealing level: 3389
+L Markov move 17: L Avarage accept rate = 0.93095
+L Current annealing level: 3735
+L Markov move 18: L Avarage accept rate = 0.9369
+L Current annealing level: 4104
+L Markov move 19: L Avarage accept rate = 0.9376
+L Current annealing level: 4471
+L Markov move 20: L Avarage accept rate = 0.93035
+L Current annealing level: 4808
+L Markov move 21: L Avarage accept rate = 0.9125
+L Current annealing level: 5111
+L Markov move 22: L Avarage accept rate = 0.88595
+L Current annealing level: 5396
+L Markov move 23: L Avarage accept rate = 0.8492
+L Current annealing level: 5679
+L Markov move 24: L Avarage accept rate = 0.80305
+L Current annealing level: 5972
+L Markov move 25: L Avarage accept rate = 0.769
+L Current annealing level: 6275
+L Markov move 26: L Avarage accept rate = 0.7269
+L Current annealing level: 6591
+L Markov move 27: L Avarage accept rate = 0.70325
+L Current annealing level: 6902
+L Markov move 28: L Avarage accept rate = 0.67995
+L Current annealing level: 7211
+L Markov move 29: L Avarage accept rate = 0.66095
+L Current annealing level: 7518
+L Markov move 30: L Avarage accept rate = 0.62415
+L Current annealing level: 7827
+L Markov move 31: L Avarage accept rate = 0.58185
+L Current annealing level: 8146
+L Markov move 32: L Avarage accept rate = 0.5478
+L Current annealing level: 8473
+L Markov move 33: L Avarage accept rate = 0.49935
+L Current annealing level: 8801
+L Markov move 34: L Avarage accept rate = 0.474
+L Current annealing level: 9134
+L Markov move 35: L Avarage accept rate = 0.43352
+L Current annealing level: 9458
+L Markov move 36: L Avarage accept rate = 0.40413
+L Current annealing level: 9776
+L Markov move 37: L Avarage accept rate = 0.38147
+L Current annealing level: 10001
+L Markov move 38: L Avarage accept rate = 0.36647
+L Marginal likelihood: -3895.1601
+D Current t: 3
+D Markov move 1: D Avarage accept rate = 0.42865
+D Current t: 28
+D Markov move 2: D Avarage accept rate = 0.38653
+D Current t: 57
+D Markov move 3: D Avarage accept rate = 0.38483
+D Current t: 86
+D Markov move 4: D Avarage accept rate = 0.36565
+D Current t: 122
+D Markov move 5: D Avarage accept rate = 0.40323
+D Current t: 159
+D Markov move 6: D Avarage accept rate = 0.37923
+D Current t: 182
+D Markov move 7: D Avarage accept rate = 0.3757
+D Current t: 206
+D Markov move 8: D Avarage accept rate = 0.38597
+D Current t: 230
+D Markov move 9: D Avarage accept rate = 0.40258
+D Current t: 253
+D Markov move 10: D Avarage accept rate = 0.46523
+D Current t: 276
+D Markov move 11: D Avarage accept rate = 0.5462
+D Current t: 287
+D Markov move 12: D Avarage accept rate = 0.45643
+D Current t: 320
+D Markov move 13: D Avarage accept rate = 0.55858
+D Current t: 349
+D Markov move 14: D Avarage accept rate = 0.62023
+D Current t: 379
+D Markov move 15: D Avarage accept rate = 0.64875
+D Current t: 413
+D Markov move 16: D Avarage accept rate = 0.70038
+D Current t: 418
+D Markov move 17: D Avarage accept rate = 0.72632
+D Current t: 419
+D Markov move 18: D Avarage accept rate = 0.8442
+D Current t: 421
+D Markov move 19: D Avarage accept rate = 0.90435
+D Current t: 422
+D Markov move 20: D Avarage accept rate = 0.9043
+D Current t: 428
+D Markov move 21: D Avarage accept rate = 0.91587
+D Current t: 431
+D Markov move 22: D Avarage accept rate = 0.93837
+D Current t: 433
+D Markov move 23: D Avarage accept rate = 0.92132
+D Current t: 434
+D Markov move 24: D Avarage accept rate = 0.89087
+D Current t: 442
+D Markov move 25: D Avarage accept rate = 0.898
+D Current t: 455
+D Markov move 26: D Avarage accept rate = 0.89035
+D Current t: 462
+D Markov move 27: D Avarage accept rate = 0.90812
+D Current t: 490
+D Markov move 28: D Avarage accept rate = 0.92027
+D Current t: 730
+D Markov move 29: D Avarage accept rate = 0.9113
+D Current t: 776
+D Markov move 30: D Avarage accept rate = 0.8966
+D Current t: 857
+D Markov move 31: D Avarage accept rate = 0.89822
+D Current t: 953
+D Markov move 32: D Avarage accept rate = 0.89557
+D Current t: 964
+D Markov move 33: D Avarage accept rate = 0.86717
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.077405   
+
+=========== stock name =====================
+
+stock_name =
+
+    'HSI'
+
+==============================================
+L Current annealing level: 653
+L Markov move 1: L Avarage accept rate = 0.47995
+L Current annealing level: 850
+L Markov move 2: L Avarage accept rate = 0.83475
+L Current annealing level: 1005
+L Markov move 3: L Avarage accept rate = 0.88905
+L Current annealing level: 1145
+L Markov move 4: L Avarage accept rate = 0.90675
+L Current annealing level: 1275
+L Markov move 5: L Avarage accept rate = 0.91265
+L Current annealing level: 1402
+L Markov move 6: L Avarage accept rate = 0.91655
+L Current annealing level: 1533
+L Markov move 7: L Avarage accept rate = 0.9212
+L Current annealing level: 1673
+L Markov move 8: L Avarage accept rate = 0.92605
+L Current annealing level: 1833
+L Markov move 9: L Avarage accept rate = 0.92155
+L Current annealing level: 2009
+L Markov move 10: L Avarage accept rate = 0.92415
+L Current annealing level: 2212
+L Markov move 11: L Avarage accept rate = 0.9214
+L Current annealing level: 2445
+L Markov move 12: L Avarage accept rate = 0.9222
+L Current annealing level: 2708
+L Markov move 13: L Avarage accept rate = 0.9208
+L Current annealing level: 3004
+L Markov move 14: L Avarage accept rate = 0.92345
+L Current annealing level: 3353
+L Markov move 15: L Avarage accept rate = 0.9234
+L Current annealing level: 3742
+L Markov move 16: L Avarage accept rate = 0.9202
+L Current annealing level: 4147
+L Markov move 17: L Avarage accept rate = 0.9163
+L Current annealing level: 4511
+L Markov move 18: L Avarage accept rate = 0.911
+L Current annealing level: 4831
+L Markov move 19: L Avarage accept rate = 0.8971
+L Current annealing level: 5102
+L Markov move 20: L Avarage accept rate = 0.8833
+L Current annealing level: 5339
+L Markov move 21: L Avarage accept rate = 0.86235
+L Current annealing level: 5562
+L Markov move 22: L Avarage accept rate = 0.827
+L Current annealing level: 5787
+L Markov move 23: L Avarage accept rate = 0.78345
+L Current annealing level: 6019
+L Markov move 24: L Avarage accept rate = 0.74555
+L Current annealing level: 6275
+L Markov move 25: L Avarage accept rate = 0.7398
+L Current annealing level: 6531
+L Markov move 26: L Avarage accept rate = 0.73275
+L Current annealing level: 6790
+L Markov move 27: L Avarage accept rate = 0.74515
+L Current annealing level: 7040
+L Markov move 28: L Avarage accept rate = 0.76
+L Current annealing level: 7279
+L Markov move 29: L Avarage accept rate = 0.7839
+L Current annealing level: 7506
+L Markov move 30: L Avarage accept rate = 0.7955
+L Current annealing level: 7726
+L Markov move 31: L Avarage accept rate = 0.813
+L Current annealing level: 7935
+L Markov move 32: L Avarage accept rate = 0.8309
+L Current annealing level: 8126
+L Markov move 33: L Avarage accept rate = 0.82635
+L Current annealing level: 8299
+L Markov move 34: L Avarage accept rate = 0.82225
+L Current annealing level: 8469
+L Markov move 35: L Avarage accept rate = 0.83975
+L Current annealing level: 8653
+L Markov move 36: L Avarage accept rate = 0.8373
+L Current annealing level: 8867
+L Markov move 37: L Avarage accept rate = 0.8761
+L Current annealing level: 9119
+L Markov move 38: L Avarage accept rate = 0.88585
+L Current annealing level: 9399
+L Markov move 39: L Avarage accept rate = 0.88612
+L Current annealing level: 9687
+L Markov move 40: L Avarage accept rate = 0.8826
+L Current annealing level: 9987
+L Markov move 41: L Avarage accept rate = 0.87982
+L Current annealing level: 10001
+L Markov move 42: L Avarage accept rate = 0.8822
+L Marginal likelihood: -4596.4768
+D Current t: 92
+D Markov move 1: D Avarage accept rate = 0.8841
+D Current t: 99
+D Markov move 2: D Avarage accept rate = 0.87862
+D Current t: 106
+D Markov move 3: D Avarage accept rate = 0.87825
+D Current t: 125
+D Markov move 4: D Avarage accept rate = 0.8729
+D Current t: 153
+D Markov move 5: D Avarage accept rate = 0.88605
+D Current t: 194
+D Markov move 6: D Avarage accept rate = 0.87787
+D Current t: 235
+D Markov move 7: D Avarage accept rate = 0.87782
+D Current t: 277
+D Markov move 8: D Avarage accept rate = 0.8717
+D Current t: 291
+D Markov move 9: D Avarage accept rate = 0.87567
+D Current t: 334
+D Markov move 10: D Avarage accept rate = 0.87157
+D Current t: 373
+D Markov move 11: D Avarage accept rate = 0.87425
+D Current t: 411
+D Markov move 12: D Avarage accept rate = 0.87475
+D Current t: 412
+D Markov move 13: D Avarage accept rate = 0.87372
+D Current t: 439
+D Markov move 14: D Avarage accept rate = 0.8764
+D Current t: 442
+D Markov move 15: D Avarage accept rate = 0.87545
+D Current t: 446
+D Markov move 16: D Avarage accept rate = 0.86815
+D Current t: 449
+D Markov move 17: D Avarage accept rate = 0.86732
+D Current t: 454
+D Markov move 18: D Avarage accept rate = 0.86987
+D Current t: 463
+D Markov move 19: D Avarage accept rate = 0.86955
+D Current t: 488
+D Markov move 20: D Avarage accept rate = 0.86535
+D Current t: 505
+D Markov move 21: D Avarage accept rate = 0.8734
+D Current t: 522
+D Markov move 22: D Avarage accept rate = 0.87642
+D Current t: 544
+D Markov move 23: D Avarage accept rate = 0.8813
+D Current t: 580
+D Markov move 24: D Avarage accept rate = 0.88227
+D Current t: 640
+D Markov move 25: D Avarage accept rate = 0.88182
+D Current t: 673
+D Markov move 26: D Avarage accept rate = 0.8777
+D Current t: 698
+D Markov move 27: D Avarage accept rate = 0.8783
+D Current t: 743
+D Markov move 28: D Avarage accept rate = 0.87555
+D Current t: 774
+D Markov move 29: D Avarage accept rate = 0.87402
+D Current t: 775
+D Markov move 30: D Avarage accept rate = 0.83987
+D Current t: 784
+D Markov move 31: D Avarage accept rate = 0.86712
+D Current t: 804
+D Markov move 32: D Avarage accept rate = 0.87275
+D Current t: 823
+D Markov move 33: D Avarage accept rate = 0.87065
+D Current t: 855
+D Markov move 34: D Avarage accept rate = 0.87182
+D Current t: 889
+D Markov move 35: D Avarage accept rate = 0.8733
+D Current t: 919
+D Markov move 36: D Avarage accept rate = 0.86735
+D Current t: 926
+D Markov move 37: D Avarage accept rate = 0.85522
+D Current t: 931
+D Markov move 38: D Avarage accept rate = 0.84393
+D Current t: 936
+D Markov move 39: D Avarage accept rate = 0.82298
+D Current t: 944
+D Markov move 40: D Avarage accept rate = 0.8304
+D Current t: 952
+D Markov move 41: D Avarage accept rate = 0.83215
+D Current t: 958
+D Markov move 42: D Avarage accept rate = 0.84495
+D Current t: 966
+D Markov move 43: D Avarage accept rate = 0.8458
+D Current t: 984
+D Markov move 44: D Avarage accept rate = 0.84378
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.091948   
+
+=========== stock name =====================
+
+stock_name =
+
+    'IBEX'
+
+==============================================
+L Current annealing level: 662
+L Markov move 1: L Avarage accept rate = 0.42755
+L Current annealing level: 866
+L Markov move 2: L Avarage accept rate = 0.81535
+L Current annealing level: 1023
+L Markov move 3: L Avarage accept rate = 0.8886
+L Current annealing level: 1164
+L Markov move 4: L Avarage accept rate = 0.9017
+L Current annealing level: 1297
+L Markov move 5: L Avarage accept rate = 0.90795
+L Current annealing level: 1426
+L Markov move 6: L Avarage accept rate = 0.9139
+L Current annealing level: 1557
+L Markov move 7: L Avarage accept rate = 0.91765
+L Current annealing level: 1694
+L Markov move 8: L Avarage accept rate = 0.92
+L Current annealing level: 1839
+L Markov move 9: L Avarage accept rate = 0.9251
+L Current annealing level: 2001
+L Markov move 10: L Avarage accept rate = 0.93
+L Current annealing level: 2186
+L Markov move 11: L Avarage accept rate = 0.92705
+L Current annealing level: 2405
+L Markov move 12: L Avarage accept rate = 0.92455
+L Current annealing level: 2646
+L Markov move 13: L Avarage accept rate = 0.9186
+L Current annealing level: 2922
+L Markov move 14: L Avarage accept rate = 0.92035
+L Current annealing level: 3233
+L Markov move 15: L Avarage accept rate = 0.92345
+L Current annealing level: 3581
+L Markov move 16: L Avarage accept rate = 0.92525
+L Current annealing level: 3941
+L Markov move 17: L Avarage accept rate = 0.9232
+L Current annealing level: 4274
+L Markov move 18: L Avarage accept rate = 0.9137
+L Current annealing level: 4554
+L Markov move 19: L Avarage accept rate = 0.89855
+L Current annealing level: 4782
+L Markov move 20: L Avarage accept rate = 0.8711
+L Current annealing level: 4975
+L Markov move 21: L Avarage accept rate = 0.83595
+L Current annealing level: 5162
+L Markov move 22: L Avarage accept rate = 0.80255
+L Current annealing level: 5353
+L Markov move 23: L Avarage accept rate = 0.75565
+L Current annealing level: 5540
+L Markov move 24: L Avarage accept rate = 0.74435
+L Current annealing level: 5721
+L Markov move 25: L Avarage accept rate = 0.7276
+L Current annealing level: 5890
+L Markov move 26: L Avarage accept rate = 0.72995
+L Current annealing level: 6060
+L Markov move 27: L Avarage accept rate = 0.7378
+L Current annealing level: 6246
+L Markov move 28: L Avarage accept rate = 0.76425
+L Current annealing level: 6459
+L Markov move 29: L Avarage accept rate = 0.8082
+L Current annealing level: 6717
+L Markov move 30: L Avarage accept rate = 0.8443
+L Current annealing level: 7018
+L Markov move 31: L Avarage accept rate = 0.8702
+L Current annealing level: 7371
+L Markov move 32: L Avarage accept rate = 0.8771
+L Current annealing level: 7797
+L Markov move 33: L Avarage accept rate = 0.8775
+L Current annealing level: 8292
+L Markov move 34: L Avarage accept rate = 0.86975
+L Current annealing level: 8830
+L Markov move 35: L Avarage accept rate = 0.8733
+L Current annealing level: 9404
+L Markov move 36: L Avarage accept rate = 0.86935
+L Current annealing level: 9998
+L Markov move 37: L Avarage accept rate = 0.86165
+L Current annealing level: 10001
+L Markov move 38: L Avarage accept rate = 0.86172
+L Marginal likelihood: -4866.1022
+D Current t: 40
+D Markov move 1: D Avarage accept rate = 0.86395
+D Current t: 133
+D Markov move 2: D Avarage accept rate = 0.8671
+D Current t: 167
+D Markov move 3: D Avarage accept rate = 0.86937
+D Current t: 198
+D Markov move 4: D Avarage accept rate = 0.87505
+D Current t: 231
+D Markov move 5: D Avarage accept rate = 0.8751
+D Current t: 285
+D Markov move 6: D Avarage accept rate = 0.8774
+D Current t: 362
+D Markov move 7: D Avarage accept rate = 0.87765
+D Current t: 400
+D Markov move 8: D Avarage accept rate = 0.87067
+D Current t: 401
+D Markov move 9: D Avarage accept rate = 0.8658
+D Current t: 403
+D Markov move 10: D Avarage accept rate = 0.86422
+D Current t: 404
+D Markov move 11: D Avarage accept rate = 0.86745
+D Current t: 409
+D Markov move 12: D Avarage accept rate = 0.8813
+D Current t: 410
+D Markov move 13: D Avarage accept rate = 0.88437
+D Current t: 413
+D Markov move 14: D Avarage accept rate = 0.88815
+D Current t: 415
+D Markov move 15: D Avarage accept rate = 0.90757
+D Current t: 422
+D Markov move 16: D Avarage accept rate = 0.90557
+D Current t: 440
+D Markov move 17: D Avarage accept rate = 0.90532
+D Current t: 691
+D Markov move 18: D Avarage accept rate = 0.90745
+D Current t: 757
+D Markov move 19: D Avarage accept rate = 0.89942
+D Current t: 806
+D Markov move 20: D Avarage accept rate = 0.89765
+D Current t: 851
+D Markov move 21: D Avarage accept rate = 0.89947
+D Current t: 913
+D Markov move 22: D Avarage accept rate = 0.892
+D Current t: 985
+D Markov move 23: D Avarage accept rate = 0.89522
+D Current t: 988
+D Markov move 24: D Avarage accept rate = 0.8868
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.096084   
+
+=========== stock name =====================
+
+stock_name =
+
+    'IXIC'
+
+==============================================
+L Current annealing level: 647
+L Markov move 1: L Avarage accept rate = 0.57585
+L Current annealing level: 845
+L Markov move 2: L Avarage accept rate = 0.81015
+L Current annealing level: 1000
+L Markov move 3: L Avarage accept rate = 0.8827
+L Current annealing level: 1138
+L Markov move 4: L Avarage accept rate = 0.90065
+L Current annealing level: 1269
+L Markov move 5: L Avarage accept rate = 0.90995
+L Current annealing level: 1403
+L Markov move 6: L Avarage accept rate = 0.91715
+L Current annealing level: 1546
+L Markov move 7: L Avarage accept rate = 0.9215
+L Current annealing level: 1695
+L Markov move 8: L Avarage accept rate = 0.92395
+L Current annealing level: 1855
+L Markov move 9: L Avarage accept rate = 0.92395
+L Current annealing level: 2030
+L Markov move 10: L Avarage accept rate = 0.92705
+L Current annealing level: 2226
+L Markov move 11: L Avarage accept rate = 0.929
+L Current annealing level: 2444
+L Markov move 12: L Avarage accept rate = 0.92865
+L Current annealing level: 2693
+L Markov move 13: L Avarage accept rate = 0.9237
+L Current annealing level: 2974
+L Markov move 14: L Avarage accept rate = 0.929
+L Current annealing level: 3290
+L Markov move 15: L Avarage accept rate = 0.92905
+L Current annealing level: 3609
+L Markov move 16: L Avarage accept rate = 0.92785
+L Current annealing level: 3891
+L Markov move 17: L Avarage accept rate = 0.9173
+L Current annealing level: 4121
+L Markov move 18: L Avarage accept rate = 0.89835
+L Current annealing level: 4313
+L Markov move 19: L Avarage accept rate = 0.86385
+L Current annealing level: 4489
+L Markov move 20: L Avarage accept rate = 0.8368
+L Current annealing level: 4660
+L Markov move 21: L Avarage accept rate = 0.80565
+L Current annealing level: 4832
+L Markov move 22: L Avarage accept rate = 0.76915
+L Current annealing level: 5011
+L Markov move 23: L Avarage accept rate = 0.73655
+L Current annealing level: 5199
+L Markov move 24: L Avarage accept rate = 0.7197
+L Current annealing level: 5400
+L Markov move 25: L Avarage accept rate = 0.71695
+L Current annealing level: 5601
+L Markov move 26: L Avarage accept rate = 0.68745
+L Current annealing level: 5812
+L Markov move 27: L Avarage accept rate = 0.65825
+L Current annealing level: 6037
+L Markov move 28: L Avarage accept rate = 0.61985
+L Current annealing level: 6284
+L Markov move 29: L Avarage accept rate = 0.5756
+L Current annealing level: 6557
+L Markov move 30: L Avarage accept rate = 0.5312
+L Current annealing level: 6860
+L Markov move 31: L Avarage accept rate = 0.4917
+L Current annealing level: 7174
+L Markov move 32: L Avarage accept rate = 0.48675
+L Current annealing level: 7497
+L Markov move 33: L Avarage accept rate = 0.4959
+L Current annealing level: 7840
+L Markov move 34: L Avarage accept rate = 0.52355
+L Current annealing level: 8222
+L Markov move 35: L Avarage accept rate = 0.5811
+L Current annealing level: 8662
+L Markov move 36: L Avarage accept rate = 0.67705
+L Current annealing level: 9201
+L Markov move 37: L Avarage accept rate = 0.8119
+L Current annealing level: 9786
+L Markov move 38: L Avarage accept rate = 0.86675
+L Current annealing level: 10001
+L Markov move 39: L Avarage accept rate = 0.8815
+L Marginal likelihood: -4346.6323
+D Current t: 36
+D Markov move 1: D Avarage accept rate = 0.89335
+D Current t: 71
+D Markov move 2: D Avarage accept rate = 0.89125
+D Current t: 80
+D Markov move 3: D Avarage accept rate = 0.87732
+D Current t: 93
+D Markov move 4: D Avarage accept rate = 0.85865
+D Current t: 111
+D Markov move 5: D Avarage accept rate = 0.86012
+D Current t: 123
+D Markov move 6: D Avarage accept rate = 0.88025
+D Current t: 176
+D Markov move 7: D Avarage accept rate = 0.8823
+D Current t: 215
+D Markov move 8: D Avarage accept rate = 0.8716
+D Current t: 257
+D Markov move 9: D Avarage accept rate = 0.86942
+D Current t: 286
+D Markov move 10: D Avarage accept rate = 0.8671
+D Current t: 327
+D Markov move 11: D Avarage accept rate = 0.86392
+D Current t: 361
+D Markov move 12: D Avarage accept rate = 0.86465
+D Current t: 396
+D Markov move 13: D Avarage accept rate = 0.85825
+D Current t: 411
+D Markov move 14: D Avarage accept rate = 0.85277
+D Current t: 420
+D Markov move 15: D Avarage accept rate = 0.86505
+D Current t: 421
+D Markov move 16: D Avarage accept rate = 0.8966
+D Current t: 424
+D Markov move 17: D Avarage accept rate = 0.9109
+D Current t: 426
+D Markov move 18: D Avarage accept rate = 0.94442
+D Current t: 434
+D Markov move 19: D Avarage accept rate = 0.95037
+D Current t: 448
+D Markov move 20: D Avarage accept rate = 0.95157
+D Current t: 487
+D Markov move 21: D Avarage accept rate = 0.95035
+D Current t: 584
+D Markov move 22: D Avarage accept rate = 0.94787
+D Current t: 715
+D Markov move 23: D Avarage accept rate = 0.94722
+D Current t: 768
+D Markov move 24: D Avarage accept rate = 0.9452
+D Current t: 928
+D Markov move 25: D Avarage accept rate = 0.94405
+D Current t: 972
+D Markov move 26: D Avarage accept rate = 0.9408
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.099285   
+
+=========== stock name =====================
+
+stock_name =
+
+    'KS11'
+
+==============================================
+L Current annealing level: 639
+L Markov move 1: L Avarage accept rate = 0.26285
+L Current annealing level: 833
+L Markov move 2: L Avarage accept rate = 0.8031
+L Current annealing level: 986
+L Markov move 3: L Avarage accept rate = 0.8496
+L Current annealing level: 1121
+L Markov move 4: L Avarage accept rate = 0.89845
+L Current annealing level: 1251
+L Markov move 5: L Avarage accept rate = 0.9035
+L Current annealing level: 1382
+L Markov move 6: L Avarage accept rate = 0.91305
+L Current annealing level: 1519
+L Markov move 7: L Avarage accept rate = 0.91435
+L Current annealing level: 1665
+L Markov move 8: L Avarage accept rate = 0.9201
+L Current annealing level: 1821
+L Markov move 9: L Avarage accept rate = 0.92405
+L Current annealing level: 1988
+L Markov move 10: L Avarage accept rate = 0.92315
+L Current annealing level: 2168
+L Markov move 11: L Avarage accept rate = 0.92645
+L Current annealing level: 2357
+L Markov move 12: L Avarage accept rate = 0.9246
+L Current annealing level: 2569
+L Markov move 13: L Avarage accept rate = 0.9198
+L Current annealing level: 2806
+L Markov move 14: L Avarage accept rate = 0.9235
+L Current annealing level: 3080
+L Markov move 15: L Avarage accept rate = 0.92375
+L Current annealing level: 3363
+L Markov move 16: L Avarage accept rate = 0.93065
+L Current annealing level: 3644
+L Markov move 17: L Avarage accept rate = 0.9319
+L Current annealing level: 3907
+L Markov move 18: L Avarage accept rate = 0.9269
+L Current annealing level: 4141
+L Markov move 19: L Avarage accept rate = 0.91235
+L Current annealing level: 4355
+L Markov move 20: L Avarage accept rate = 0.89455
+L Current annealing level: 4550
+L Markov move 21: L Avarage accept rate = 0.87955
+L Current annealing level: 4736
+L Markov move 22: L Avarage accept rate = 0.8733
+L Current annealing level: 4917
+L Markov move 23: L Avarage accept rate = 0.86875
+L Current annealing level: 5102
+L Markov move 24: L Avarage accept rate = 0.8684
+L Current annealing level: 5288
+L Markov move 25: L Avarage accept rate = 0.8762
+L Current annealing level: 5477
+L Markov move 26: L Avarage accept rate = 0.8838
+L Current annealing level: 5668
+L Markov move 27: L Avarage accept rate = 0.8979
+L Current annealing level: 5867
+L Markov move 28: L Avarage accept rate = 0.89945
+L Current annealing level: 6074
+L Markov move 29: L Avarage accept rate = 0.89905
+L Current annealing level: 6297
+L Markov move 30: L Avarage accept rate = 0.90555
+L Current annealing level: 6548
+L Markov move 31: L Avarage accept rate = 0.9089
+L Current annealing level: 6840
+L Markov move 32: L Avarage accept rate = 0.91235
+L Current annealing level: 7161
+L Markov move 33: L Avarage accept rate = 0.9075
+L Current annealing level: 7516
+L Markov move 34: L Avarage accept rate = 0.9101
+L Current annealing level: 7890
+L Markov move 35: L Avarage accept rate = 0.90895
+L Current annealing level: 8291
+L Markov move 36: L Avarage accept rate = 0.90525
+L Current annealing level: 8737
+L Markov move 37: L Avarage accept rate = 0.9053
+L Current annealing level: 9224
+L Markov move 38: L Avarage accept rate = 0.90262
+L Current annealing level: 9757
+L Markov move 39: L Avarage accept rate = 0.8997
+L Current annealing level: 10001
+L Markov move 40: L Avarage accept rate = 0.89577
+L Marginal likelihood: -4195.4679
+D Current t: 51
+D Markov move 1: D Avarage accept rate = 0.89677
+D Current t: 87
+D Markov move 2: D Avarage accept rate = 0.89287
+D Current t: 154
+D Markov move 3: D Avarage accept rate = 0.88797
+D Current t: 206
+D Markov move 4: D Avarage accept rate = 0.88707
+D Current t: 268
+D Markov move 5: D Avarage accept rate = 0.889
+D Current t: 288
+D Markov move 6: D Avarage accept rate = 0.89127
+D Current t: 337
+D Markov move 7: D Avarage accept rate = 0.89277
+D Current t: 386
+D Markov move 8: D Avarage accept rate = 0.89
+D Current t: 422
+D Markov move 9: D Avarage accept rate = 0.88707
+D Current t: 426
+D Markov move 10: D Avarage accept rate = 0.8923
+D Current t: 432
+D Markov move 11: D Avarage accept rate = 0.8911
+D Current t: 435
+D Markov move 12: D Avarage accept rate = 0.8899
+D Current t: 439
+D Markov move 13: D Avarage accept rate = 0.88832
+D Current t: 440
+D Markov move 14: D Avarage accept rate = 0.88195
+D Current t: 444
+D Markov move 15: D Avarage accept rate = 0.88852
+D Current t: 447
+D Markov move 16: D Avarage accept rate = 0.9018
+D Current t: 452
+D Markov move 17: D Avarage accept rate = 0.90617
+D Current t: 457
+D Markov move 18: D Avarage accept rate = 0.9111
+D Current t: 462
+D Markov move 19: D Avarage accept rate = 0.91722
+D Current t: 473
+D Markov move 20: D Avarage accept rate = 0.9223
+D Current t: 508
+D Markov move 21: D Avarage accept rate = 0.9265
+D Current t: 545
+D Markov move 22: D Avarage accept rate = 0.92652
+D Current t: 586
+D Markov move 23: D Avarage accept rate = 0.92772
+D Current t: 636
+D Markov move 24: D Avarage accept rate = 0.92475
+D Current t: 647
+D Markov move 25: D Avarage accept rate = 0.92012
+D Current t: 661
+D Markov move 26: D Avarage accept rate = 0.91217
+D Current t: 685
+D Markov move 27: D Avarage accept rate = 0.90485
+D Current t: 730
+D Markov move 28: D Avarage accept rate = 0.90522
+D Current t: 775
+D Markov move 29: D Avarage accept rate = 0.90807
+D Current t: 825
+D Markov move 30: D Avarage accept rate = 0.91137
+D Current t: 882
+D Markov move 31: D Avarage accept rate = 0.91497
+D Current t: 899
+D Markov move 32: D Avarage accept rate = 0.9175
+D Current t: 916
+D Markov move 33: D Avarage accept rate = 0.90912
+D Current t: 922
+D Markov move 34: D Avarage accept rate = 0.90442
+D Current t: 973
+D Markov move 35: D Avarage accept rate = 0.90687
+D Current t: 988
+D Markov move 36: D Avarage accept rate = 0.90627
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.074053   
+
+=========== stock name =====================
+
+stock_name =
+
+    'KSE'
+
+==============================================
+L Current annealing level: 646
+L Markov move 1: L Avarage accept rate = 0.2693
+L Current annealing level: 839
+L Markov move 2: L Avarage accept rate = 0.7533
+L Current annealing level: 990
+L Markov move 3: L Avarage accept rate = 0.8843
+L Current annealing level: 1127
+L Markov move 4: L Avarage accept rate = 0.9021
+L Current annealing level: 1258
+L Markov move 5: L Avarage accept rate = 0.9105
+L Current annealing level: 1395
+L Markov move 6: L Avarage accept rate = 0.91525
+L Current annealing level: 1534
+L Markov move 7: L Avarage accept rate = 0.91665
+L Current annealing level: 1680
+L Markov move 8: L Avarage accept rate = 0.91835
+L Current annealing level: 1837
+L Markov move 9: L Avarage accept rate = 0.9143
+L Current annealing level: 2002
+L Markov move 10: L Avarage accept rate = 0.91625
+L Current annealing level: 2193
+L Markov move 11: L Avarage accept rate = 0.92185
+L Current annealing level: 2420
+L Markov move 12: L Avarage accept rate = 0.92625
+L Current annealing level: 2686
+L Markov move 13: L Avarage accept rate = 0.9231
+L Current annealing level: 2995
+L Markov move 14: L Avarage accept rate = 0.92465
+L Current annealing level: 3342
+L Markov move 15: L Avarage accept rate = 0.92665
+L Current annealing level: 3742
+L Markov move 16: L Avarage accept rate = 0.9265
+L Current annealing level: 4205
+L Markov move 17: L Avarage accept rate = 0.92155
+L Current annealing level: 4767
+L Markov move 18: L Avarage accept rate = 0.9243
+L Current annealing level: 5398
+L Markov move 19: L Avarage accept rate = 0.9218
+L Current annealing level: 5964
+L Markov move 20: L Avarage accept rate = 0.92
+L Current annealing level: 6386
+L Markov move 21: L Avarage accept rate = 0.90955
+L Current annealing level: 6665
+L Markov move 22: L Avarage accept rate = 0.8878
+L Current annealing level: 6862
+L Markov move 23: L Avarage accept rate = 0.86
+L Current annealing level: 7027
+L Markov move 24: L Avarage accept rate = 0.8483
+L Current annealing level: 7182
+L Markov move 25: L Avarage accept rate = 0.837
+L Current annealing level: 7345
+L Markov move 26: L Avarage accept rate = 0.85625
+L Current annealing level: 7520
+L Markov move 27: L Avarage accept rate = 0.8658
+L Current annealing level: 7694
+L Markov move 28: L Avarage accept rate = 0.87025
+L Current annealing level: 7866
+L Markov move 29: L Avarage accept rate = 0.8677
+L Current annealing level: 8041
+L Markov move 30: L Avarage accept rate = 0.86895
+L Current annealing level: 8225
+L Markov move 31: L Avarage accept rate = 0.8709
+L Current annealing level: 8425
+L Markov move 32: L Avarage accept rate = 0.8769
+L Current annealing level: 8657
+L Markov move 33: L Avarage accept rate = 0.8805
+L Current annealing level: 8924
+L Markov move 34: L Avarage accept rate = 0.8804
+L Current annealing level: 9199
+L Markov move 35: L Avarage accept rate = 0.8728
+L Current annealing level: 9483
+L Markov move 36: L Avarage accept rate = 0.86852
+L Current annealing level: 9781
+L Markov move 37: L Avarage accept rate = 0.86557
+L Current annealing level: 10001
+L Markov move 38: L Avarage accept rate = 0.86212
+L Marginal likelihood: -4438.0699
+D Current t: 20
+D Markov move 1: D Avarage accept rate = 0.86567
+D Current t: 23
+D Markov move 2: D Avarage accept rate = 0.86167
+D Current t: 58
+D Markov move 3: D Avarage accept rate = 0.858
+D Current t: 80
+D Markov move 4: D Avarage accept rate = 0.85757
+D Current t: 100
+D Markov move 5: D Avarage accept rate = 0.85572
+D Current t: 119
+D Markov move 6: D Avarage accept rate = 0.85787
+D Current t: 156
+D Markov move 7: D Avarage accept rate = 0.85967
+D Current t: 226
+D Markov move 8: D Avarage accept rate = 0.85657
+D Current t: 231
+D Markov move 9: D Avarage accept rate = 0.8529
+D Current t: 252
+D Markov move 10: D Avarage accept rate = 0.8567
+D Current t: 288
+D Markov move 11: D Avarage accept rate = 0.85572
+D Current t: 297
+D Markov move 12: D Avarage accept rate = 0.8524
+D Current t: 313
+D Markov move 13: D Avarage accept rate = 0.85485
+D Current t: 354
+D Markov move 14: D Avarage accept rate = 0.86002
+D Current t: 380
+D Markov move 15: D Avarage accept rate = 0.86072
+D Current t: 412
+D Markov move 16: D Avarage accept rate = 0.85852
+D Current t: 426
+D Markov move 17: D Avarage accept rate = 0.86177
+D Current t: 432
+D Markov move 18: D Avarage accept rate = 0.85565
+D Current t: 437
+D Markov move 19: D Avarage accept rate = 0.85837
+D Current t: 439
+D Markov move 20: D Avarage accept rate = 0.85567
+D Current t: 444
+D Markov move 21: D Avarage accept rate = 0.8577
+D Current t: 450
+D Markov move 22: D Avarage accept rate = 0.85885
+D Current t: 456
+D Markov move 23: D Avarage accept rate = 0.84952
+D Current t: 461
+D Markov move 24: D Avarage accept rate = 0.839
+D Current t: 467
+D Markov move 25: D Avarage accept rate = 0.8311
+D Current t: 473
+D Markov move 26: D Avarage accept rate = 0.82075
+D Current t: 479
+D Markov move 27: D Avarage accept rate = 0.81273
+D Current t: 493
+D Markov move 28: D Avarage accept rate = 0.8224
+D Current t: 543
+D Markov move 29: D Avarage accept rate = 0.80892
+D Current t: 574
+D Markov move 30: D Avarage accept rate = 0.85237
+D Current t: 592
+D Markov move 31: D Avarage accept rate = 0.82988
+D Current t: 636
+D Markov move 32: D Avarage accept rate = 0.83315
+D Current t: 670
+D Markov move 33: D Avarage accept rate = 0.8224
+D Current t: 695
+D Markov move 34: D Avarage accept rate = 0.82145
+D Current t: 743
+D Markov move 35: D Avarage accept rate = 0.81775
+D Current t: 775
+D Markov move 36: D Avarage accept rate = 0.81055
+D Current t: 805
+D Markov move 37: D Avarage accept rate = 0.8131
+D Current t: 858
+D Markov move 38: D Avarage accept rate = 0.81175
+D Current t: 892
+D Markov move 39: D Avarage accept rate = 0.8073
+D Current t: 925
+D Markov move 40: D Avarage accept rate = 0.81435
+D Current t: 954
+D Markov move 41: D Avarage accept rate = 0.79333
+D Current t: 964
+D Markov move 42: D Avarage accept rate = 0.76718
+D Current t: 988
+D Markov move 43: D Avarage accept rate = 0.764
+D Current t: 997
+D Markov move 44: D Avarage accept rate = 0.75897
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.083636   
+
+=========== stock name =====================
+
+stock_name =
+
+    'MXX'
+
+==============================================
+L Current annealing level: 632
+L Markov move 1: L Avarage accept rate = 0.56405
+L Current annealing level: 824
+L Markov move 2: L Avarage accept rate = 0.82945
+L Current annealing level: 972
+L Markov move 3: L Avarage accept rate = 0.8622
+L Current annealing level: 1109
+L Markov move 4: L Avarage accept rate = 0.9001
+L Current annealing level: 1239
+L Markov move 5: L Avarage accept rate = 0.90645
+L Current annealing level: 1365
+L Markov move 6: L Avarage accept rate = 0.91605
+L Current annealing level: 1494
+L Markov move 7: L Avarage accept rate = 0.91665
+L Current annealing level: 1626
+L Markov move 8: L Avarage accept rate = 0.9184
+L Current annealing level: 1765
+L Markov move 9: L Avarage accept rate = 0.91645
+L Current annealing level: 1914
+L Markov move 10: L Avarage accept rate = 0.91825
+L Current annealing level: 2077
+L Markov move 11: L Avarage accept rate = 0.92185
+L Current annealing level: 2257
+L Markov move 12: L Avarage accept rate = 0.92585
+L Current annealing level: 2452
+L Markov move 13: L Avarage accept rate = 0.92465
+L Current annealing level: 2669
+L Markov move 14: L Avarage accept rate = 0.92545
+L Current annealing level: 2918
+L Markov move 15: L Avarage accept rate = 0.9256
+L Current annealing level: 3207
+L Markov move 16: L Avarage accept rate = 0.92815
+L Current annealing level: 3536
+L Markov move 17: L Avarage accept rate = 0.92885
+L Current annealing level: 3904
+L Markov move 18: L Avarage accept rate = 0.92855
+L Current annealing level: 4261
+L Markov move 19: L Avarage accept rate = 0.9182
+L Current annealing level: 4563
+L Markov move 20: L Avarage accept rate = 0.89235
+L Current annealing level: 4814
+L Markov move 21: L Avarage accept rate = 0.854
+L Current annealing level: 5049
+L Markov move 22: L Avarage accept rate = 0.8065
+L Current annealing level: 5273
+L Markov move 23: L Avarage accept rate = 0.7388
+L Current annealing level: 5512
+L Markov move 24: L Avarage accept rate = 0.70205
+L Current annealing level: 5759
+L Markov move 25: L Avarage accept rate = 0.66735
+L Current annealing level: 6043
+L Markov move 26: L Avarage accept rate = 0.67985
+L Current annealing level: 6398
+L Markov move 27: L Avarage accept rate = 0.72905
+L Current annealing level: 6887
+L Markov move 28: L Avarage accept rate = 0.80525
+L Current annealing level: 7507
+L Markov move 29: L Avarage accept rate = 0.8539
+L Current annealing level: 8188
+L Markov move 30: L Avarage accept rate = 0.8794
+L Current annealing level: 8897
+L Markov move 31: L Avarage accept rate = 0.8989
+L Current annealing level: 9624
+L Markov move 32: L Avarage accept rate = 0.9087
+L Current annealing level: 10001
+L Markov move 33: L Avarage accept rate = 0.90505
+L Marginal likelihood: -3994.7992
+D Current t: 5
+D Markov move 1: D Avarage accept rate = 0.91192
+D Current t: 58
+D Markov move 2: D Avarage accept rate = 0.91007
+D Current t: 89
+D Markov move 3: D Avarage accept rate = 0.91267
+D Current t: 96
+D Markov move 4: D Avarage accept rate = 0.9186
+D Current t: 107
+D Markov move 5: D Avarage accept rate = 0.90577
+D Current t: 121
+D Markov move 6: D Avarage accept rate = 0.90892
+D Current t: 146
+D Markov move 7: D Avarage accept rate = 0.9087
+D Current t: 247
+D Markov move 8: D Avarage accept rate = 0.90245
+D Current t: 265
+D Markov move 9: D Avarage accept rate = 0.90992
+D Current t: 284
+D Markov move 10: D Avarage accept rate = 0.90915
+D Current t: 360
+D Markov move 11: D Avarage accept rate = 0.90772
+D Current t: 418
+D Markov move 12: D Avarage accept rate = 0.90695
+D Current t: 423
+D Markov move 13: D Avarage accept rate = 0.90837
+D Current t: 425
+D Markov move 14: D Avarage accept rate = 0.90305
+D Current t: 428
+D Markov move 15: D Avarage accept rate = 0.89787
+D Current t: 430
+D Markov move 16: D Avarage accept rate = 0.90915
+D Current t: 433
+D Markov move 17: D Avarage accept rate = 0.92157
+D Current t: 437
+D Markov move 18: D Avarage accept rate = 0.92635
+D Current t: 454
+D Markov move 19: D Avarage accept rate = 0.92247
+D Current t: 487
+D Markov move 20: D Avarage accept rate = 0.92227
+D Current t: 572
+D Markov move 21: D Avarage accept rate = 0.92467
+D Current t: 715
+D Markov move 22: D Avarage accept rate = 0.92195
+D Current t: 902
+D Markov move 23: D Avarage accept rate = 0.92462
+D Current t: 987
+D Markov move 24: D Avarage accept rate = 0.92127
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.080915   
+
+=========== stock name =====================
+
+stock_name =
+
+    'N225'
+
+==============================================
+L Current annealing level: 660
+L Markov move 1: L Avarage accept rate = 0.4268
+L Current annealing level: 862
+L Markov move 2: L Avarage accept rate = 0.8439
+L Current annealing level: 1025
+L Markov move 3: L Avarage accept rate = 0.89985
+L Current annealing level: 1169
+L Markov move 4: L Avarage accept rate = 0.9132
+L Current annealing level: 1303
+L Markov move 5: L Avarage accept rate = 0.9189
+L Current annealing level: 1434
+L Markov move 6: L Avarage accept rate = 0.9217
+L Current annealing level: 1565
+L Markov move 7: L Avarage accept rate = 0.9199
+L Current annealing level: 1704
+L Markov move 8: L Avarage accept rate = 0.92065
+L Current annealing level: 1851
+L Markov move 9: L Avarage accept rate = 0.9253
+L Current annealing level: 2016
+L Markov move 10: L Avarage accept rate = 0.92775
+L Current annealing level: 2200
+L Markov move 11: L Avarage accept rate = 0.92765
+L Current annealing level: 2415
+L Markov move 12: L Avarage accept rate = 0.9337
+L Current annealing level: 2665
+L Markov move 13: L Avarage accept rate = 0.9372
+L Current annealing level: 2954
+L Markov move 14: L Avarage accept rate = 0.93465
+L Current annealing level: 3271
+L Markov move 15: L Avarage accept rate = 0.9377
+L Current annealing level: 3569
+L Markov move 16: L Avarage accept rate = 0.93615
+L Current annealing level: 3825
+L Markov move 17: L Avarage accept rate = 0.9279
+L Current annealing level: 4049
+L Markov move 18: L Avarage accept rate = 0.92055
+L Current annealing level: 4252
+L Markov move 19: L Avarage accept rate = 0.91325
+L Current annealing level: 4454
+L Markov move 20: L Avarage accept rate = 0.9006
+L Current annealing level: 4668
+L Markov move 21: L Avarage accept rate = 0.8996
+L Current annealing level: 4911
+L Markov move 22: L Avarage accept rate = 0.8941
+L Current annealing level: 5191
+L Markov move 23: L Avarage accept rate = 0.89595
+L Current annealing level: 5500
+L Markov move 24: L Avarage accept rate = 0.8976
+L Current annealing level: 5816
+L Markov move 25: L Avarage accept rate = 0.8917
+L Current annealing level: 6118
+L Markov move 26: L Avarage accept rate = 0.89555
+L Current annealing level: 6400
+L Markov move 27: L Avarage accept rate = 0.89205
+L Current annealing level: 6682
+L Markov move 28: L Avarage accept rate = 0.8985
+L Current annealing level: 6996
+L Markov move 29: L Avarage accept rate = 0.9015
+L Current annealing level: 7382
+L Markov move 30: L Avarage accept rate = 0.9113
+L Current annealing level: 7890
+L Markov move 31: L Avarage accept rate = 0.92015
+L Current annealing level: 8556
+L Markov move 32: L Avarage accept rate = 0.92155
+L Current annealing level: 9375
+L Markov move 33: L Avarage accept rate = 0.91772
+L Current annealing level: 10001
+L Markov move 34: L Avarage accept rate = 0.91655
+L Marginal likelihood: -4938.0141
+D Current t: 29
+D Markov move 1: D Avarage accept rate = 0.9143
+D Current t: 69
+D Markov move 2: D Avarage accept rate = 0.91435
+D Current t: 107
+D Markov move 3: D Avarage accept rate = 0.91317
+D Current t: 120
+D Markov move 4: D Avarage accept rate = 0.91045
+D Current t: 122
+D Markov move 5: D Avarage accept rate = 0.90837
+D Current t: 163
+D Markov move 6: D Avarage accept rate = 0.90902
+D Current t: 220
+D Markov move 7: D Avarage accept rate = 0.9016
+D Current t: 256
+D Markov move 8: D Avarage accept rate = 0.90702
+D Current t: 288
+D Markov move 9: D Avarage accept rate = 0.89797
+D Current t: 346
+D Markov move 10: D Avarage accept rate = 0.89847
+D Current t: 381
+D Markov move 11: D Avarage accept rate = 0.89442
+D Current t: 413
+D Markov move 12: D Avarage accept rate = 0.8916
+D Current t: 420
+D Markov move 13: D Avarage accept rate = 0.88862
+D Current t: 442
+D Markov move 14: D Avarage accept rate = 0.89282
+D Current t: 448
+D Markov move 15: D Avarage accept rate = 0.88907
+D Current t: 455
+D Markov move 16: D Avarage accept rate = 0.8801
+D Current t: 461
+D Markov move 17: D Avarage accept rate = 0.87365
+D Current t: 470
+D Markov move 18: D Avarage accept rate = 0.87192
+D Current t: 485
+D Markov move 19: D Avarage accept rate = 0.86085
+D Current t: 523
+D Markov move 20: D Avarage accept rate = 0.86402
+D Current t: 598
+D Markov move 21: D Avarage accept rate = 0.86003
+D Current t: 637
+D Markov move 22: D Avarage accept rate = 0.85697
+D Current t: 685
+D Markov move 23: D Avarage accept rate = 0.86015
+D Current t: 726
+D Markov move 24: D Avarage accept rate = 0.8589
+D Current t: 756
+D Markov move 25: D Avarage accept rate = 0.86205
+D Current t: 792
+D Markov move 26: D Avarage accept rate = 0.86002
+D Current t: 823
+D Markov move 27: D Avarage accept rate = 0.85905
+D Current t: 889
+D Markov move 28: D Avarage accept rate = 0.85595
+D Current t: 959
+D Markov move 29: D Avarage accept rate = 0.84735
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.081011   
+
+=========== stock name =====================
+
+stock_name =
+
+    'NSEI'
+
+==============================================
+L Current annealing level: 649
+L Markov move 1: L Avarage accept rate = 0.59115
+L Current annealing level: 841
+L Markov move 2: L Avarage accept rate = 0.84495
+L Current annealing level: 987
+L Markov move 3: L Avarage accept rate = 0.88355
+L Current annealing level: 1117
+L Markov move 4: L Avarage accept rate = 0.90375
+L Current annealing level: 1240
+L Markov move 5: L Avarage accept rate = 0.9044
+L Current annealing level: 1363
+L Markov move 6: L Avarage accept rate = 0.9127
+L Current annealing level: 1488
+L Markov move 7: L Avarage accept rate = 0.91695
+L Current annealing level: 1618
+L Markov move 8: L Avarage accept rate = 0.91785
+L Current annealing level: 1760
+L Markov move 9: L Avarage accept rate = 0.92075
+L Current annealing level: 1914
+L Markov move 10: L Avarage accept rate = 0.9257
+L Current annealing level: 2083
+L Markov move 11: L Avarage accept rate = 0.93245
+L Current annealing level: 2270
+L Markov move 12: L Avarage accept rate = 0.9308
+L Current annealing level: 2480
+L Markov move 13: L Avarage accept rate = 0.93195
+L Current annealing level: 2713
+L Markov move 14: L Avarage accept rate = 0.93155
+L Current annealing level: 2976
+L Markov move 15: L Avarage accept rate = 0.92955
+L Current annealing level: 3283
+L Markov move 16: L Avarage accept rate = 0.93185
+L Current annealing level: 3661
+L Markov move 17: L Avarage accept rate = 0.9397
+L Current annealing level: 4118
+L Markov move 18: L Avarage accept rate = 0.9374
+L Current annealing level: 4599
+L Markov move 19: L Avarage accept rate = 0.9311
+L Current annealing level: 5023
+L Markov move 20: L Avarage accept rate = 0.92465
+L Current annealing level: 5376
+L Markov move 21: L Avarage accept rate = 0.9093
+L Current annealing level: 5666
+L Markov move 22: L Avarage accept rate = 0.88865
+L Current annealing level: 5908
+L Markov move 23: L Avarage accept rate = 0.8686
+L Current annealing level: 6131
+L Markov move 24: L Avarage accept rate = 0.8575
+L Current annealing level: 6341
+L Markov move 25: L Avarage accept rate = 0.84515
+L Current annealing level: 6536
+L Markov move 26: L Avarage accept rate = 0.84955
+L Current annealing level: 6722
+L Markov move 27: L Avarage accept rate = 0.84545
+L Current annealing level: 6917
+L Markov move 28: L Avarage accept rate = 0.8485
+L Current annealing level: 7126
+L Markov move 29: L Avarage accept rate = 0.85775
+L Current annealing level: 7364
+L Markov move 30: L Avarage accept rate = 0.8703
+L Current annealing level: 7631
+L Markov move 31: L Avarage accept rate = 0.88285
+L Current annealing level: 7915
+L Markov move 32: L Avarage accept rate = 0.8857
+L Current annealing level: 8218
+L Markov move 33: L Avarage accept rate = 0.8842
+L Current annealing level: 8559
+L Markov move 34: L Avarage accept rate = 0.89605
+L Current annealing level: 8960
+L Markov move 35: L Avarage accept rate = 0.89715
+L Current annealing level: 9404
+L Markov move 36: L Avarage accept rate = 0.90212
+L Current annealing level: 9861
+L Markov move 37: L Avarage accept rate = 0.89962
+L Current annealing level: 10001
+L Markov move 38: L Avarage accept rate = 0.9017
+L Marginal likelihood: -4186.5617
+D Current t: 28
+D Markov move 1: D Avarage accept rate = 0.89757
+D Current t: 53
+D Markov move 2: D Avarage accept rate = 0.8909
+D Current t: 70
+D Markov move 3: D Avarage accept rate = 0.88967
+D Current t: 75
+D Markov move 4: D Avarage accept rate = 0.88815
+D Current t: 76
+D Markov move 5: D Avarage accept rate = 0.8793
+D Current t: 94
+D Markov move 6: D Avarage accept rate = 0.87927
+D Current t: 119
+D Markov move 7: D Avarage accept rate = 0.88755
+D Current t: 128
+D Markov move 8: D Avarage accept rate = 0.88695
+D Current t: 161
+D Markov move 9: D Avarage accept rate = 0.8819
+D Current t: 191
+D Markov move 10: D Avarage accept rate = 0.8725
+D Current t: 217
+D Markov move 11: D Avarage accept rate = 0.86465
+D Current t: 253
+D Markov move 12: D Avarage accept rate = 0.8526
+D Current t: 261
+D Markov move 13: D Avarage accept rate = 0.8537
+D Current t: 292
+D Markov move 14: D Avarage accept rate = 0.8437
+D Current t: 347
+D Markov move 15: D Avarage accept rate = 0.84255
+D Current t: 375
+D Markov move 16: D Avarage accept rate = 0.83785
+D Current t: 382
+D Markov move 17: D Avarage accept rate = 0.84067
+D Current t: 402
+D Markov move 18: D Avarage accept rate = 0.8445
+D Current t: 417
+D Markov move 19: D Avarage accept rate = 0.83545
+D Current t: 421
+D Markov move 20: D Avarage accept rate = 0.83797
+D Current t: 427
+D Markov move 21: D Avarage accept rate = 0.853
+D Current t: 429
+D Markov move 22: D Avarage accept rate = 0.88597
+D Current t: 432
+D Markov move 23: D Avarage accept rate = 0.88645
+D Current t: 434
+D Markov move 24: D Avarage accept rate = 0.88765
+D Current t: 436
+D Markov move 25: D Avarage accept rate = 0.92292
+D Current t: 444
+D Markov move 26: D Avarage accept rate = 0.93055
+D Current t: 454
+D Markov move 27: D Avarage accept rate = 0.93842
+D Current t: 461
+D Markov move 28: D Avarage accept rate = 0.90032
+D Current t: 486
+D Markov move 29: D Avarage accept rate = 0.92107
+D Current t: 531
+D Markov move 30: D Avarage accept rate = 0.93725
+D Current t: 560
+D Markov move 31: D Avarage accept rate = 0.93515
+D Current t: 577
+D Markov move 32: D Avarage accept rate = 0.9348
+D Current t: 670
+D Markov move 33: D Avarage accept rate = 0.9308
+D Current t: 736
+D Markov move 34: D Avarage accept rate = 0.92515
+D Current t: 806
+D Markov move 35: D Avarage accept rate = 0.91477
+D Current t: 908
+D Markov move 36: D Avarage accept rate = 0.91322
+D Current t: 960
+D Markov move 37: D Avarage accept rate = 0.91945
+D Current t: 991
+D Markov move 38: D Avarage accept rate = 0.92172
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.088215   
+
+=========== stock name =====================
+
+stock_name =
+
+    'OMXC20'
+
+==============================================
+L Current annealing level: 646
+L Markov move 1: L Avarage accept rate = 0.42415
+L Current annealing level: 840
+L Markov move 2: L Avarage accept rate = 0.8295
+L Current annealing level: 992
+L Markov move 3: L Avarage accept rate = 0.86605
+L Current annealing level: 1128
+L Markov move 4: L Avarage accept rate = 0.89545
+L Current annealing level: 1257
+L Markov move 5: L Avarage accept rate = 0.91015
+L Current annealing level: 1384
+L Markov move 6: L Avarage accept rate = 0.9154
+L Current annealing level: 1518
+L Markov move 7: L Avarage accept rate = 0.92175
+L Current annealing level: 1661
+L Markov move 8: L Avarage accept rate = 0.91915
+L Current annealing level: 1814
+L Markov move 9: L Avarage accept rate = 0.92305
+L Current annealing level: 1982
+L Markov move 10: L Avarage accept rate = 0.9239
+L Current annealing level: 2170
+L Markov move 11: L Avarage accept rate = 0.9291
+L Current annealing level: 2383
+L Markov move 12: L Avarage accept rate = 0.9271
+L Current annealing level: 2626
+L Markov move 13: L Avarage accept rate = 0.9244
+L Current annealing level: 2895
+L Markov move 14: L Avarage accept rate = 0.9212
+L Current annealing level: 3203
+L Markov move 15: L Avarage accept rate = 0.91745
+L Current annealing level: 3542
+L Markov move 16: L Avarage accept rate = 0.9155
+L Current annealing level: 3909
+L Markov move 17: L Avarage accept rate = 0.9089
+L Current annealing level: 4283
+L Markov move 18: L Avarage accept rate = 0.9071
+L Current annealing level: 4652
+L Markov move 19: L Avarage accept rate = 0.90305
+L Current annealing level: 4954
+L Markov move 20: L Avarage accept rate = 0.8863
+L Current annealing level: 5193
+L Markov move 21: L Avarage accept rate = 0.86765
+L Current annealing level: 5385
+L Markov move 22: L Avarage accept rate = 0.83315
+L Current annealing level: 5555
+L Markov move 23: L Avarage accept rate = 0.80025
+L Current annealing level: 5724
+L Markov move 24: L Avarage accept rate = 0.778
+L Current annealing level: 5901
+L Markov move 25: L Avarage accept rate = 0.775
+L Current annealing level: 6101
+L Markov move 26: L Avarage accept rate = 0.78555
+L Current annealing level: 6331
+L Markov move 27: L Avarage accept rate = 0.8305
+L Current annealing level: 6592
+L Markov move 28: L Avarage accept rate = 0.88185
+L Current annealing level: 6886
+L Markov move 29: L Avarage accept rate = 0.89905
+L Current annealing level: 7204
+L Markov move 30: L Avarage accept rate = 0.89915
+L Current annealing level: 7538
+L Markov move 31: L Avarage accept rate = 0.8986
+L Current annealing level: 7891
+L Markov move 32: L Avarage accept rate = 0.90385
+L Current annealing level: 8267
+L Markov move 33: L Avarage accept rate = 0.9056
+L Current annealing level: 8668
+L Markov move 34: L Avarage accept rate = 0.8999
+L Current annealing level: 9104
+L Markov move 35: L Avarage accept rate = 0.90005
+L Current annealing level: 9582
+L Markov move 36: L Avarage accept rate = 0.8963
+L Current annealing level: 10001
+L Markov move 37: L Avarage accept rate = 0.89097
+L Marginal likelihood: -4487.1236
+D Current t: 51
+D Markov move 1: D Avarage accept rate = 0.89095
+D Current t: 83
+D Markov move 2: D Avarage accept rate = 0.88887
+D Current t: 126
+D Markov move 3: D Avarage accept rate = 0.88872
+D Current t: 168
+D Markov move 4: D Avarage accept rate = 0.87897
+D Current t: 202
+D Markov move 5: D Avarage accept rate = 0.87702
+D Current t: 242
+D Markov move 6: D Avarage accept rate = 0.87507
+D Current t: 283
+D Markov move 7: D Avarage accept rate = 0.87322
+D Current t: 381
+D Markov move 8: D Avarage accept rate = 0.86797
+D Current t: 423
+D Markov move 9: D Avarage accept rate = 0.86482
+D Current t: 432
+D Markov move 10: D Avarage accept rate = 0.86587
+D Current t: 433
+D Markov move 11: D Avarage accept rate = 0.84807
+D Current t: 436
+D Markov move 12: D Avarage accept rate = 0.86435
+D Current t: 440
+D Markov move 13: D Avarage accept rate = 0.854
+D Current t: 446
+D Markov move 14: D Avarage accept rate = 0.84435
+D Current t: 456
+D Markov move 15: D Avarage accept rate = 0.8441
+D Current t: 483
+D Markov move 16: D Avarage accept rate = 0.84537
+D Current t: 526
+D Markov move 17: D Avarage accept rate = 0.84797
+D Current t: 636
+D Markov move 18: D Avarage accept rate = 0.84285
+D Current t: 676
+D Markov move 19: D Avarage accept rate = 0.83938
+D Current t: 752
+D Markov move 20: D Avarage accept rate = 0.83038
+D Current t: 797
+D Markov move 21: D Avarage accept rate = 0.82763
+D Current t: 871
+D Markov move 22: D Avarage accept rate = 0.82923
+D Current t: 875
+D Markov move 23: D Avarage accept rate = 0.83285
+D Current t: 886
+D Markov move 24: D Avarage accept rate = 0.83055
+D Current t: 892
+D Markov move 25: D Avarage accept rate = 0.82905
+D Current t: 898
+D Markov move 26: D Avarage accept rate = 0.80395
+D Current t: 906
+D Markov move 27: D Avarage accept rate = 0.81495
+D Current t: 907
+D Markov move 28: D Avarage accept rate = 0.8596
+D Current t: 924
+D Markov move 29: D Avarage accept rate = 0.83393
+D Current t: 932
+D Markov move 30: D Avarage accept rate = 0.8025
+D Current t: 950
+D Markov move 31: D Avarage accept rate = 0.79785
+D Current t: 952
+D Markov move 32: D Avarage accept rate = 0.82148
+D Current t: 965
+D Markov move 33: D Avarage accept rate = 0.78005
+D Current t: 968
+D Markov move 34: D Avarage accept rate = 0.81968
+D Current t: 989
+D Markov move 35: D Avarage accept rate = 0.8429
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.083422   
+
+=========== stock name =====================
+
+stock_name =
+
+    'OMXHPI'
+
+==============================================
+L Current annealing level: 646
+L Markov move 1: L Avarage accept rate = 0.6037
+L Current annealing level: 846
+L Markov move 2: L Avarage accept rate = 0.84525
+L Current annealing level: 996
+L Markov move 3: L Avarage accept rate = 0.8797
+L Current annealing level: 1132
+L Markov move 4: L Avarage accept rate = 0.9034
+L Current annealing level: 1263
+L Markov move 5: L Avarage accept rate = 0.9151
+L Current annealing level: 1396
+L Markov move 6: L Avarage accept rate = 0.924
+L Current annealing level: 1533
+L Markov move 7: L Avarage accept rate = 0.92445
+L Current annealing level: 1674
+L Markov move 8: L Avarage accept rate = 0.92625
+L Current annealing level: 1821
+L Markov move 9: L Avarage accept rate = 0.9229
+L Current annealing level: 1983
+L Markov move 10: L Avarage accept rate = 0.92605
+L Current annealing level: 2171
+L Markov move 11: L Avarage accept rate = 0.9322
+L Current annealing level: 2390
+L Markov move 12: L Avarage accept rate = 0.93465
+L Current annealing level: 2645
+L Markov move 13: L Avarage accept rate = 0.93585
+L Current annealing level: 2942
+L Markov move 14: L Avarage accept rate = 0.93785
+L Current annealing level: 3265
+L Markov move 15: L Avarage accept rate = 0.93835
+L Current annealing level: 3597
+L Markov move 16: L Avarage accept rate = 0.9363
+L Current annealing level: 3872
+L Markov move 17: L Avarage accept rate = 0.9262
+L Current annealing level: 4091
+L Markov move 18: L Avarage accept rate = 0.9011
+L Current annealing level: 4262
+L Markov move 19: L Avarage accept rate = 0.8735
+L Current annealing level: 4412
+L Markov move 20: L Avarage accept rate = 0.84685
+L Current annealing level: 4568
+L Markov move 21: L Avarage accept rate = 0.82745
+L Current annealing level: 4741
+L Markov move 22: L Avarage accept rate = 0.8113
+L Current annealing level: 4924
+L Markov move 23: L Avarage accept rate = 0.80865
+L Current annealing level: 5110
+L Markov move 24: L Avarage accept rate = 0.8029
+L Current annealing level: 5304
+L Markov move 25: L Avarage accept rate = 0.8215
+L Current annealing level: 5504
+L Markov move 26: L Avarage accept rate = 0.8383
+L Current annealing level: 5713
+L Markov move 27: L Avarage accept rate = 0.83935
+L Current annealing level: 5935
+L Markov move 28: L Avarage accept rate = 0.8511
+L Current annealing level: 6173
+L Markov move 29: L Avarage accept rate = 0.87435
+L Current annealing level: 6424
+L Markov move 30: L Avarage accept rate = 0.896
+L Current annealing level: 6688
+L Markov move 31: L Avarage accept rate = 0.89635
+L Current annealing level: 6956
+L Markov move 32: L Avarage accept rate = 0.89355
+L Current annealing level: 7224
+L Markov move 33: L Avarage accept rate = 0.88935
+L Current annealing level: 7495
+L Markov move 34: L Avarage accept rate = 0.88765
+L Current annealing level: 7778
+L Markov move 35: L Avarage accept rate = 0.8782
+L Current annealing level: 8089
+L Markov move 36: L Avarage accept rate = 0.8711
+L Current annealing level: 8430
+L Markov move 37: L Avarage accept rate = 0.8729
+L Current annealing level: 8806
+L Markov move 38: L Avarage accept rate = 0.86635
+L Current annealing level: 9217
+L Markov move 39: L Avarage accept rate = 0.85745
+L Current annealing level: 9634
+L Markov move 40: L Avarage accept rate = 0.85122
+L Current annealing level: 10001
+L Markov move 41: L Avarage accept rate = 0.84635
+L Marginal likelihood: -4457.5805
+D Current t: 47
+D Markov move 1: D Avarage accept rate = 0.84903
+D Current t: 84
+D Markov move 2: D Avarage accept rate = 0.83395
+D Current t: 163
+D Markov move 3: D Avarage accept rate = 0.84697
+D Current t: 227
+D Markov move 4: D Avarage accept rate = 0.85102
+D Current t: 284
+D Markov move 5: D Avarage accept rate = 0.8424
+D Current t: 349
+D Markov move 6: D Avarage accept rate = 0.84632
+D Current t: 391
+D Markov move 7: D Avarage accept rate = 0.84448
+D Current t: 415
+D Markov move 8: D Avarage accept rate = 0.84535
+D Current t: 422
+D Markov move 9: D Avarage accept rate = 0.85328
+D Current t: 424
+D Markov move 10: D Avarage accept rate = 0.85305
+D Current t: 425
+D Markov move 11: D Avarage accept rate = 0.85895
+D Current t: 428
+D Markov move 12: D Avarage accept rate = 0.87215
+D Current t: 434
+D Markov move 13: D Avarage accept rate = 0.8621
+D Current t: 443
+D Markov move 14: D Avarage accept rate = 0.86105
+D Current t: 450
+D Markov move 15: D Avarage accept rate = 0.87405
+D Current t: 461
+D Markov move 16: D Avarage accept rate = 0.87047
+D Current t: 462
+D Markov move 17: D Avarage accept rate = 0.8752
+D Current t: 510
+D Markov move 18: D Avarage accept rate = 0.87395
+D Current t: 701
+D Markov move 19: D Avarage accept rate = 0.87377
+D Current t: 787
+D Markov move 20: D Avarage accept rate = 0.86757
+D Current t: 894
+D Markov move 21: D Avarage accept rate = 0.87832
+D Current t: 919
+D Markov move 22: D Avarage accept rate = 0.8852
+D Current t: 929
+D Markov move 23: D Avarage accept rate = 0.884
+D Current t: 963
+D Markov move 24: D Avarage accept rate = 0.87955
+D Current t: 976
+D Markov move 25: D Avarage accept rate = 0.8791
+D Current t: 989
+D Markov move 26: D Avarage accept rate = 0.87885
+D Current t: 992
+D Markov move 27: D Avarage accept rate = 0.8745
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.084846   
+
+=========== stock name =====================
+
+stock_name =
+
+    'OMXSPI'
+
+==============================================
+L Current annealing level: 645
+L Markov move 1: L Avarage accept rate = 0.591
+L Current annealing level: 839
+L Markov move 2: L Avarage accept rate = 0.8175
+L Current annealing level: 994
+L Markov move 3: L Avarage accept rate = 0.8859
+L Current annealing level: 1131
+L Markov move 4: L Avarage accept rate = 0.9013
+L Current annealing level: 1262
+L Markov move 5: L Avarage accept rate = 0.91155
+L Current annealing level: 1395
+L Markov move 6: L Avarage accept rate = 0.92305
+L Current annealing level: 1527
+L Markov move 7: L Avarage accept rate = 0.9233
+L Current annealing level: 1665
+L Markov move 8: L Avarage accept rate = 0.9246
+L Current annealing level: 1813
+L Markov move 9: L Avarage accept rate = 0.92305
+L Current annealing level: 1975
+L Markov move 10: L Avarage accept rate = 0.92505
+L Current annealing level: 2157
+L Markov move 11: L Avarage accept rate = 0.92515
+L Current annealing level: 2360
+L Markov move 12: L Avarage accept rate = 0.9253
+L Current annealing level: 2590
+L Markov move 13: L Avarage accept rate = 0.92575
+L Current annealing level: 2849
+L Markov move 14: L Avarage accept rate = 0.92535
+L Current annealing level: 3118
+L Markov move 15: L Avarage accept rate = 0.92055
+L Current annealing level: 3378
+L Markov move 16: L Avarage accept rate = 0.9235
+L Current annealing level: 3609
+L Markov move 17: L Avarage accept rate = 0.9244
+L Current annealing level: 3806
+L Markov move 18: L Avarage accept rate = 0.91555
+L Current annealing level: 3975
+L Markov move 19: L Avarage accept rate = 0.9022
+L Current annealing level: 4128
+L Markov move 20: L Avarage accept rate = 0.8857
+L Current annealing level: 4285
+L Markov move 21: L Avarage accept rate = 0.88655
+L Current annealing level: 4462
+L Markov move 22: L Avarage accept rate = 0.89815
+L Current annealing level: 4680
+L Markov move 23: L Avarage accept rate = 0.9059
+L Current annealing level: 4924
+L Markov move 24: L Avarage accept rate = 0.907
+L Current annealing level: 5179
+L Markov move 25: L Avarage accept rate = 0.90345
+L Current annealing level: 5435
+L Markov move 26: L Avarage accept rate = 0.8942
+L Current annealing level: 5692
+L Markov move 27: L Avarage accept rate = 0.885
+L Current annealing level: 5949
+L Markov move 28: L Avarage accept rate = 0.8764
+L Current annealing level: 6218
+L Markov move 29: L Avarage accept rate = 0.8644
+L Current annealing level: 6510
+L Markov move 30: L Avarage accept rate = 0.86455
+L Current annealing level: 6831
+L Markov move 31: L Avarage accept rate = 0.86915
+L Current annealing level: 7179
+L Markov move 32: L Avarage accept rate = 0.87375
+L Current annealing level: 7552
+L Markov move 33: L Avarage accept rate = 0.8762
+L Current annealing level: 7960
+L Markov move 34: L Avarage accept rate = 0.8855
+L Current annealing level: 8410
+L Markov move 35: L Avarage accept rate = 0.88485
+L Current annealing level: 8894
+L Markov move 36: L Avarage accept rate = 0.88352
+L Current annealing level: 9374
+L Markov move 37: L Avarage accept rate = 0.88132
+L Current annealing level: 9850
+L Markov move 38: L Avarage accept rate = 0.86697
+L Current annealing level: 10001
+L Markov move 39: L Avarage accept rate = 0.86335
+L Marginal likelihood: -4392.7814
+D Current t: 31
+D Markov move 1: D Avarage accept rate = 0.8613
+D Current t: 58
+D Markov move 2: D Avarage accept rate = 0.86267
+D Current t: 76
+D Markov move 3: D Avarage accept rate = 0.86397
+D Current t: 114
+D Markov move 4: D Avarage accept rate = 0.85525
+D Current t: 116
+D Markov move 5: D Avarage accept rate = 0.85782
+D Current t: 169
+D Markov move 6: D Avarage accept rate = 0.85498
+D Current t: 199
+D Markov move 7: D Avarage accept rate = 0.84685
+D Current t: 226
+D Markov move 8: D Avarage accept rate = 0.84395
+D Current t: 273
+D Markov move 9: D Avarage accept rate = 0.84267
+D Current t: 276
+D Markov move 10: D Avarage accept rate = 0.83452
+D Current t: 277
+D Markov move 11: D Avarage accept rate = 0.8334
+D Current t: 319
+D Markov move 12: D Avarage accept rate = 0.83682
+D Current t: 357
+D Markov move 13: D Avarage accept rate = 0.82525
+D Current t: 391
+D Markov move 14: D Avarage accept rate = 0.82693
+D Current t: 415
+D Markov move 15: D Avarage accept rate = 0.82655
+D Current t: 423
+D Markov move 16: D Avarage accept rate = 0.8403
+D Current t: 425
+D Markov move 17: D Avarage accept rate = 0.8526
+D Current t: 428
+D Markov move 18: D Avarage accept rate = 0.91077
+D Current t: 433
+D Markov move 19: D Avarage accept rate = 0.92612
+D Current t: 443
+D Markov move 20: D Avarage accept rate = 0.92445
+D Current t: 450
+D Markov move 21: D Avarage accept rate = 0.86447
+D Current t: 463
+D Markov move 22: D Avarage accept rate = 0.86652
+D Current t: 469
+D Markov move 23: D Avarage accept rate = 0.85997
+D Current t: 470
+D Markov move 24: D Avarage accept rate = 0.86082
+D Current t: 489
+D Markov move 25: D Avarage accept rate = 0.85755
+D Current t: 523
+D Markov move 26: D Avarage accept rate = 0.8559
+D Current t: 564
+D Markov move 27: D Avarage accept rate = 0.85482
+D Current t: 586
+D Markov move 28: D Avarage accept rate = 0.84247
+D Current t: 676
+D Markov move 29: D Avarage accept rate = 0.84998
+D Current t: 795
+D Markov move 30: D Avarage accept rate = 0.85477
+D Current t: 814
+D Markov move 31: D Avarage accept rate = 0.84585
+D Current t: 857
+D Markov move 32: D Avarage accept rate = 0.84015
+D Current t: 884
+D Markov move 33: D Avarage accept rate = 0.82917
+D Current t: 894
+D Markov move 34: D Avarage accept rate = 0.83675
+D Current t: 919
+D Markov move 35: D Avarage accept rate = 0.81442
+D Current t: 931
+D Markov move 36: D Avarage accept rate = 0.814
+D Current t: 963
+D Markov move 37: D Avarage accept rate = 0.83075
+D Current t: 973
+D Markov move 38: D Avarage accept rate = 0.84982
+D Current t: 984
+D Markov move 39: D Avarage accept rate = 0.8717
+D Current t: 989
+D Markov move 40: D Avarage accept rate = 0.8644
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.088457   
+
+=========== stock name =====================
+
+stock_name =
+
+    'OSEAX'
+
+==============================================
+L Current annealing level: 650
+L Markov move 1: L Avarage accept rate = 0.4685
+L Current annealing level: 844
+L Markov move 2: L Avarage accept rate = 0.8188
+L Current annealing level: 995
+L Markov move 3: L Avarage accept rate = 0.8892
+L Current annealing level: 1130
+L Markov move 4: L Avarage accept rate = 0.9024
+L Current annealing level: 1262
+L Markov move 5: L Avarage accept rate = 0.9166
+L Current annealing level: 1394
+L Markov move 6: L Avarage accept rate = 0.9176
+L Current annealing level: 1531
+L Markov move 7: L Avarage accept rate = 0.9196
+L Current annealing level: 1674
+L Markov move 8: L Avarage accept rate = 0.92295
+L Current annealing level: 1830
+L Markov move 9: L Avarage accept rate = 0.92475
+L Current annealing level: 1998
+L Markov move 10: L Avarage accept rate = 0.91935
+L Current annealing level: 2180
+L Markov move 11: L Avarage accept rate = 0.92105
+L Current annealing level: 2386
+L Markov move 12: L Avarage accept rate = 0.923
+L Current annealing level: 2627
+L Markov move 13: L Avarage accept rate = 0.92015
+L Current annealing level: 2912
+L Markov move 14: L Avarage accept rate = 0.91705
+L Current annealing level: 3241
+L Markov move 15: L Avarage accept rate = 0.92355
+L Current annealing level: 3586
+L Markov move 16: L Avarage accept rate = 0.9233
+L Current annealing level: 3899
+L Markov move 17: L Avarage accept rate = 0.92135
+L Current annealing level: 4159
+L Markov move 18: L Avarage accept rate = 0.9103
+L Current annealing level: 4359
+L Markov move 19: L Avarage accept rate = 0.89215
+L Current annealing level: 4520
+L Markov move 20: L Avarage accept rate = 0.8824
+L Current annealing level: 4661
+L Markov move 21: L Avarage accept rate = 0.86705
+L Current annealing level: 4804
+L Markov move 22: L Avarage accept rate = 0.8674
+L Current annealing level: 4959
+L Markov move 23: L Avarage accept rate = 0.8672
+L Current annealing level: 5135
+L Markov move 24: L Avarage accept rate = 0.87555
+L Current annealing level: 5339
+L Markov move 25: L Avarage accept rate = 0.88445
+L Current annealing level: 5566
+L Markov move 26: L Avarage accept rate = 0.8926
+L Current annealing level: 5818
+L Markov move 27: L Avarage accept rate = 0.89805
+L Current annealing level: 6089
+L Markov move 28: L Avarage accept rate = 0.9005
+L Current annealing level: 6376
+L Markov move 29: L Avarage accept rate = 0.896
+L Current annealing level: 6674
+L Markov move 30: L Avarage accept rate = 0.89665
+L Current annealing level: 6973
+L Markov move 31: L Avarage accept rate = 0.8958
+L Current annealing level: 7273
+L Markov move 32: L Avarage accept rate = 0.8892
+L Current annealing level: 7592
+L Markov move 33: L Avarage accept rate = 0.89445
+L Current annealing level: 7919
+L Markov move 34: L Avarage accept rate = 0.88695
+L Current annealing level: 8258
+L Markov move 35: L Avarage accept rate = 0.892
+L Current annealing level: 8621
+L Markov move 36: L Avarage accept rate = 0.8905
+L Current annealing level: 9008
+L Markov move 37: L Avarage accept rate = 0.8949
+L Current annealing level: 9415
+L Markov move 38: L Avarage accept rate = 0.89545
+L Current annealing level: 9847
+L Markov move 39: L Avarage accept rate = 0.8989
+L Current annealing level: 10001
+L Markov move 40: L Avarage accept rate = 0.897
+L Marginal likelihood: -4375.0642
+D Current t: 43
+D Markov move 1: D Avarage accept rate = 0.90075
+D Current t: 120
+D Markov move 2: D Avarage accept rate = 0.8935
+D Current t: 152
+D Markov move 3: D Avarage accept rate = 0.89335
+D Current t: 204
+D Markov move 4: D Avarage accept rate = 0.8931
+D Current t: 234
+D Markov move 5: D Avarage accept rate = 0.88737
+D Current t: 279
+D Markov move 6: D Avarage accept rate = 0.8888
+D Current t: 280
+D Markov move 7: D Avarage accept rate = 0.88292
+D Current t: 385
+D Markov move 8: D Avarage accept rate = 0.88282
+D Current t: 399
+D Markov move 9: D Avarage accept rate = 0.87687
+D Current t: 419
+D Markov move 10: D Avarage accept rate = 0.8749
+D Current t: 422
+D Markov move 11: D Avarage accept rate = 0.88612
+D Current t: 429
+D Markov move 12: D Avarage accept rate = 0.88937
+D Current t: 432
+D Markov move 13: D Avarage accept rate = 0.90612
+D Current t: 436
+D Markov move 14: D Avarage accept rate = 0.90195
+D Current t: 440
+D Markov move 15: D Avarage accept rate = 0.89152
+D Current t: 445
+D Markov move 16: D Avarage accept rate = 0.8927
+D Current t: 451
+D Markov move 17: D Avarage accept rate = 0.89362
+D Current t: 460
+D Markov move 18: D Avarage accept rate = 0.89767
+D Current t: 478
+D Markov move 19: D Avarage accept rate = 0.90287
+D Current t: 523
+D Markov move 20: D Avarage accept rate = 0.91005
+D Current t: 586
+D Markov move 21: D Avarage accept rate = 0.9096
+D Current t: 636
+D Markov move 22: D Avarage accept rate = 0.90712
+D Current t: 686
+D Markov move 23: D Avarage accept rate = 0.90805
+D Current t: 739
+D Markov move 24: D Avarage accept rate = 0.9033
+D Current t: 806
+D Markov move 25: D Avarage accept rate = 0.90805
+D Current t: 851
+D Markov move 26: D Avarage accept rate = 0.90277
+D Current t: 855
+D Markov move 27: D Avarage accept rate = 0.90385
+D Current t: 873
+D Markov move 28: D Avarage accept rate = 0.9047
+D Current t: 893
+D Markov move 29: D Avarage accept rate = 0.90142
+D Current t: 894
+D Markov move 30: D Avarage accept rate = 0.90022
+D Current t: 918
+D Markov move 31: D Avarage accept rate = 0.89795
+D Current t: 930
+D Markov move 32: D Avarage accept rate = 0.89737
+D Current t: 956
+D Markov move 33: D Avarage accept rate = 0.8916
+D Current t: 972
+D Markov move 34: D Avarage accept rate = 0.89572
+D Current t: 988
+D Markov move 35: D Avarage accept rate = 0.88862
+D Current t: 995
+D Markov move 36: D Avarage accept rate = 0.8916
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.084478   
+
+=========== stock name =====================
+
+stock_name =
+
+    'RUT'
+
+==============================================
+L Current annealing level: 649
+L Markov move 1: L Avarage accept rate = 0.19635
+L Current annealing level: 847
+L Markov move 2: L Avarage accept rate = 0.85175
+L Current annealing level: 1001
+L Markov move 3: L Avarage accept rate = 0.8853
+L Current annealing level: 1139
+L Markov move 4: L Avarage accept rate = 0.9033
+L Current annealing level: 1266
+L Markov move 5: L Avarage accept rate = 0.91025
+L Current annealing level: 1393
+L Markov move 6: L Avarage accept rate = 0.91345
+L Current annealing level: 1527
+L Markov move 7: L Avarage accept rate = 0.91735
+L Current annealing level: 1670
+L Markov move 8: L Avarage accept rate = 0.9187
+L Current annealing level: 1825
+L Markov move 9: L Avarage accept rate = 0.92425
+L Current annealing level: 1989
+L Markov move 10: L Avarage accept rate = 0.92355
+L Current annealing level: 2173
+L Markov move 11: L Avarage accept rate = 0.92295
+L Current annealing level: 2373
+L Markov move 12: L Avarage accept rate = 0.93125
+L Current annealing level: 2591
+L Markov move 13: L Avarage accept rate = 0.931
+L Current annealing level: 2827
+L Markov move 14: L Avarage accept rate = 0.93035
+L Current annealing level: 3061
+L Markov move 15: L Avarage accept rate = 0.92795
+L Current annealing level: 3262
+L Markov move 16: L Avarage accept rate = 0.92435
+L Current annealing level: 3437
+L Markov move 17: L Avarage accept rate = 0.9164
+L Current annealing level: 3591
+L Markov move 18: L Avarage accept rate = 0.90815
+L Current annealing level: 3736
+L Markov move 19: L Avarage accept rate = 0.90145
+L Current annealing level: 3886
+L Markov move 20: L Avarage accept rate = 0.90345
+L Current annealing level: 4055
+L Markov move 21: L Avarage accept rate = 0.9073
+L Current annealing level: 4251
+L Markov move 22: L Avarage accept rate = 0.9204
+L Current annealing level: 4489
+L Markov move 23: L Avarage accept rate = 0.93135
+L Current annealing level: 4764
+L Markov move 24: L Avarage accept rate = 0.93685
+L Current annealing level: 5065
+L Markov move 25: L Avarage accept rate = 0.93585
+L Current annealing level: 5383
+L Markov move 26: L Avarage accept rate = 0.9326
+L Current annealing level: 5730
+L Markov move 27: L Avarage accept rate = 0.92575
+L Current annealing level: 6125
+L Markov move 28: L Avarage accept rate = 0.9226
+L Current annealing level: 6571
+L Markov move 29: L Avarage accept rate = 0.9238
+L Current annealing level: 7077
+L Markov move 30: L Avarage accept rate = 0.91355
+L Current annealing level: 7624
+L Markov move 31: L Avarage accept rate = 0.9126
+L Current annealing level: 8206
+L Markov move 32: L Avarage accept rate = 0.913
+L Current annealing level: 8809
+L Markov move 33: L Avarage accept rate = 0.9153
+L Current annealing level: 9450
+L Markov move 34: L Avarage accept rate = 0.90917
+L Current annealing level: 10001
+L Markov move 35: L Avarage accept rate = 0.90717
+L Marginal likelihood: -4499.0962
+D Current t: 57
+D Markov move 1: D Avarage accept rate = 0.90702
+D Current t: 82
+D Markov move 2: D Avarage accept rate = 0.89532
+D Current t: 110
+D Markov move 3: D Avarage accept rate = 0.89135
+D Current t: 127
+D Markov move 4: D Avarage accept rate = 0.89712
+D Current t: 183
+D Markov move 5: D Avarage accept rate = 0.8877
+D Current t: 218
+D Markov move 6: D Avarage accept rate = 0.88802
+D Current t: 269
+D Markov move 7: D Avarage accept rate = 0.8902
+D Current t: 289
+D Markov move 8: D Avarage accept rate = 0.88727
+D Current t: 324
+D Markov move 9: D Avarage accept rate = 0.88965
+D Current t: 361
+D Markov move 10: D Avarage accept rate = 0.8896
+D Current t: 394
+D Markov move 11: D Avarage accept rate = 0.88902
+D Current t: 414
+D Markov move 12: D Avarage accept rate = 0.88935
+D Current t: 416
+D Markov move 13: D Avarage accept rate = 0.8981
+D Current t: 423
+D Markov move 14: D Avarage accept rate = 0.88342
+D Current t: 426
+D Markov move 15: D Avarage accept rate = 0.9359
+D Current t: 428
+D Markov move 16: D Avarage accept rate = 0.95667
+D Current t: 436
+D Markov move 17: D Avarage accept rate = 0.96605
+D Current t: 444
+D Markov move 18: D Avarage accept rate = 0.95817
+D Current t: 450
+D Markov move 19: D Avarage accept rate = 0.94097
+D Current t: 458
+D Markov move 20: D Avarage accept rate = 0.92577
+D Current t: 468
+D Markov move 21: D Avarage accept rate = 0.94057
+D Current t: 489
+D Markov move 22: D Avarage accept rate = 0.9225
+D Current t: 498
+D Markov move 23: D Avarage accept rate = 0.92357
+D Current t: 547
+D Markov move 24: D Avarage accept rate = 0.92642
+D Current t: 606
+D Markov move 25: D Avarage accept rate = 0.91937
+D Current t: 663
+D Markov move 26: D Avarage accept rate = 0.93445
+D Current t: 683
+D Markov move 27: D Avarage accept rate = 0.93337
+D Current t: 854
+D Markov move 28: D Avarage accept rate = 0.93382
+D Current t: 875
+D Markov move 29: D Avarage accept rate = 0.93
+D Current t: 908
+D Markov move 30: D Avarage accept rate = 0.9211
+D Current t: 928
+D Markov move 31: D Avarage accept rate = 0.92247
+D Current t: 966
+D Markov move 32: D Avarage accept rate = 0.92315
+D Current t: 989
+D Markov move 33: D Avarage accept rate = 0.9169
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.10955    
+
+=========== stock name =====================
+
+stock_name =
+
+    'SMSI'
+
+==============================================
+L Current annealing level: 661
+L Markov move 1: L Avarage accept rate = 0.60645
+L Current annealing level: 856
+L Markov move 2: L Avarage accept rate = 0.8341
+L Current annealing level: 1011
+L Markov move 3: L Avarage accept rate = 0.87865
+L Current annealing level: 1149
+L Markov move 4: L Avarage accept rate = 0.9026
+L Current annealing level: 1276
+L Markov move 5: L Avarage accept rate = 0.9116
+L Current annealing level: 1399
+L Markov move 6: L Avarage accept rate = 0.91385
+L Current annealing level: 1527
+L Markov move 7: L Avarage accept rate = 0.9182
+L Current annealing level: 1667
+L Markov move 8: L Avarage accept rate = 0.917
+L Current annealing level: 1822
+L Markov move 9: L Avarage accept rate = 0.92045
+L Current annealing level: 1997
+L Markov move 10: L Avarage accept rate = 0.9256
+L Current annealing level: 2190
+L Markov move 11: L Avarage accept rate = 0.9233
+L Current annealing level: 2407
+L Markov move 12: L Avarage accept rate = 0.92375
+L Current annealing level: 2642
+L Markov move 13: L Avarage accept rate = 0.9216
+L Current annealing level: 2903
+L Markov move 14: L Avarage accept rate = 0.9205
+L Current annealing level: 3190
+L Markov move 15: L Avarage accept rate = 0.918
+L Current annealing level: 3498
+L Markov move 16: L Avarage accept rate = 0.9245
+L Current annealing level: 3818
+L Markov move 17: L Avarage accept rate = 0.92405
+L Current annealing level: 4135
+L Markov move 18: L Avarage accept rate = 0.9242
+L Current annealing level: 4440
+L Markov move 19: L Avarage accept rate = 0.92185
+L Current annealing level: 4742
+L Markov move 20: L Avarage accept rate = 0.9179
+L Current annealing level: 5048
+L Markov move 21: L Avarage accept rate = 0.91895
+L Current annealing level: 5351
+L Markov move 22: L Avarage accept rate = 0.905
+L Current annealing level: 5641
+L Markov move 23: L Avarage accept rate = 0.8978
+L Current annealing level: 5921
+L Markov move 24: L Avarage accept rate = 0.89245
+L Current annealing level: 6204
+L Markov move 25: L Avarage accept rate = 0.875
+L Current annealing level: 6486
+L Markov move 26: L Avarage accept rate = 0.85885
+L Current annealing level: 6772
+L Markov move 27: L Avarage accept rate = 0.84115
+L Current annealing level: 7070
+L Markov move 28: L Avarage accept rate = 0.80655
+L Current annealing level: 7382
+L Markov move 29: L Avarage accept rate = 0.76405
+L Current annealing level: 7717
+L Markov move 30: L Avarage accept rate = 0.71295
+L Current annealing level: 8050
+L Markov move 31: L Avarage accept rate = 0.6838
+L Current annealing level: 8387
+L Markov move 32: L Avarage accept rate = 0.66535
+L Current annealing level: 8738
+L Markov move 33: L Avarage accept rate = 0.6108
+L Current annealing level: 9092
+L Markov move 34: L Avarage accept rate = 0.54995
+L Current annealing level: 9466
+L Markov move 35: L Avarage accept rate = 0.45208
+L Current annealing level: 9867
+L Markov move 36: L Avarage accept rate = 0.3842
+L Current annealing level: 10001
+L Markov move 37: L Avarage accept rate = 0.35318
+L Marginal likelihood: -4872.1651
+D Current t: 31
+D Markov move 1: D Avarage accept rate = 0.28972
+D Current t: 61
+D Markov move 2: D Avarage accept rate = 0.26305
+D Current t: 91
+D Markov move 3: D Avarage accept rate = 0.26717
+D Current t: 96
+D Markov move 4: D Avarage accept rate = 0.26927
+D Current t: 126
+D Markov move 5: D Avarage accept rate = 0.2732
+D Current t: 154
+D Markov move 6: D Avarage accept rate = 0.31848
+D Current t: 186
+D Markov move 7: D Avarage accept rate = 0.4197
+D Current t: 224
+D Markov move 8: D Avarage accept rate = 0.60617
+D Current t: 332
+D Markov move 9: D Avarage accept rate = 0.69135
+D Current t: 411
+D Markov move 10: D Avarage accept rate = 0.76188
+D Current t: 412
+D Markov move 11: D Avarage accept rate = 0.49075
+D Current t: 415
+D Markov move 12: D Avarage accept rate = 0.27317
+D Current t: 420
+D Markov move 13: D Avarage accept rate = 0.36158
+D Current t: 427
+D Markov move 14: D Avarage accept rate = 0.52303
+D Current t: 436
+D Markov move 15: D Avarage accept rate = 0.57545
+D Current t: 437
+D Markov move 16: D Avarage accept rate = 0.3975
+D Current t: 471
+D Markov move 17: D Avarage accept rate = 0.39537
+D Current t: 477
+D Markov move 18: D Avarage accept rate = 0.3866
+D Current t: 486
+D Markov move 19: D Avarage accept rate = 0.28147
+D Current t: 512
+D Markov move 20: D Avarage accept rate = 0.24407
+D Current t: 579
+D Markov move 21: D Avarage accept rate = 0.29115
+D Current t: 644
+D Markov move 22: D Avarage accept rate = 0.44572
+D Current t: 733
+D Markov move 23: D Avarage accept rate = 0.46713
+D Current t: 757
+D Markov move 24: D Avarage accept rate = 0.4061
+D Current t: 794
+D Markov move 25: D Avarage accept rate = 0.4612
+D Current t: 799
+D Markov move 26: D Avarage accept rate = 0.2715
+D Current t: 808
+D Markov move 27: D Avarage accept rate = 0.26537
+D Current t: 845
+D Markov move 28: D Avarage accept rate = 0.2524
+D Current t: 851
+D Markov move 29: D Avarage accept rate = 0.28647
+D Current t: 913
+D Markov move 30: D Avarage accept rate = 0.32548
+D Current t: 921
+D Markov move 31: D Avarage accept rate = 0.37915
+D Current t: 980
+D Markov move 32: D Avarage accept rate = 0.36545
+D Current t: 987
+D Markov move 33: D Avarage accept rate = 0.30237
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.091108   
+
+=========== stock name =====================
+
+stock_name =
+
+    'SPX'
+
+==============================================
+L Current annealing level: 635
+L Markov move 1: L Avarage accept rate = 0.48265
+L Current annealing level: 834
+L Markov move 2: L Avarage accept rate = 0.8312
+L Current annealing level: 991
+L Markov move 3: L Avarage accept rate = 0.87745
+L Current annealing level: 1133
+L Markov move 4: L Avarage accept rate = 0.9107
+L Current annealing level: 1267
+L Markov move 5: L Avarage accept rate = 0.91935
+L Current annealing level: 1401
+L Markov move 6: L Avarage accept rate = 0.9256
+L Current annealing level: 1534
+L Markov move 7: L Avarage accept rate = 0.92665
+L Current annealing level: 1672
+L Markov move 8: L Avarage accept rate = 0.9271
+L Current annealing level: 1815
+L Markov move 9: L Avarage accept rate = 0.92825
+L Current annealing level: 1972
+L Markov move 10: L Avarage accept rate = 0.92815
+L Current annealing level: 2141
+L Markov move 11: L Avarage accept rate = 0.9294
+L Current annealing level: 2331
+L Markov move 12: L Avarage accept rate = 0.93035
+L Current annealing level: 2558
+L Markov move 13: L Avarage accept rate = 0.93235
+L Current annealing level: 2805
+L Markov move 14: L Avarage accept rate = 0.9302
+L Current annealing level: 3074
+L Markov move 15: L Avarage accept rate = 0.93625
+L Current annealing level: 3362
+L Markov move 16: L Avarage accept rate = 0.93575
+L Current annealing level: 3660
+L Markov move 17: L Avarage accept rate = 0.93075
+L Current annealing level: 3939
+L Markov move 18: L Avarage accept rate = 0.92895
+L Current annealing level: 4193
+L Markov move 19: L Avarage accept rate = 0.9132
+L Current annealing level: 4406
+L Markov move 20: L Avarage accept rate = 0.8828
+L Current annealing level: 4584
+L Markov move 21: L Avarage accept rate = 0.83785
+L Current annealing level: 4750
+L Markov move 22: L Avarage accept rate = 0.79985
+L Current annealing level: 4908
+L Markov move 23: L Avarage accept rate = 0.75465
+L Current annealing level: 5064
+L Markov move 24: L Avarage accept rate = 0.70645
+L Current annealing level: 5222
+L Markov move 25: L Avarage accept rate = 0.6888
+L Current annealing level: 5389
+L Markov move 26: L Avarage accept rate = 0.6798
+L Current annealing level: 5571
+L Markov move 27: L Avarage accept rate = 0.68375
+L Current annealing level: 5771
+L Markov move 28: L Avarage accept rate = 0.6602
+L Current annealing level: 5972
+L Markov move 29: L Avarage accept rate = 0.6317
+L Current annealing level: 6179
+L Markov move 30: L Avarage accept rate = 0.6026
+L Current annealing level: 6385
+L Markov move 31: L Avarage accept rate = 0.5642
+L Current annealing level: 6591
+L Markov move 32: L Avarage accept rate = 0.5348
+L Current annealing level: 6797
+L Markov move 33: L Avarage accept rate = 0.49805
+L Current annealing level: 7007
+L Markov move 34: L Avarage accept rate = 0.4665
+L Current annealing level: 7236
+L Markov move 35: L Avarage accept rate = 0.42215
+L Current annealing level: 7486
+L Markov move 36: L Avarage accept rate = 0.3822
+L Current annealing level: 7774
+L Markov move 37: L Avarage accept rate = 0.3458
+L Current annealing level: 8094
+L Markov move 38: L Avarage accept rate = 0.3292
+L Current annealing level: 8468
+L Markov move 39: L Avarage accept rate = 0.31745
+L Current annealing level: 8912
+L Markov move 40: L Avarage accept rate = 0.326
+L Current annealing level: 9444
+L Markov move 41: L Avarage accept rate = 0.32597
+L Current annealing level: 10001
+L Markov move 42: L Avarage accept rate = 0.31647
+L Marginal likelihood: -4103.9554
+D Current t: 65
+D Markov move 1: D Avarage accept rate = 0.3147
+D Current t: 87
+D Markov move 2: D Avarage accept rate = 0.53157
+D Current t: 100
+D Markov move 3: D Avarage accept rate = 0.84845
+D Current t: 130
+D Markov move 4: D Avarage accept rate = 0.88067
+D Current t: 172
+D Markov move 5: D Avarage accept rate = 0.90047
+D Current t: 277
+D Markov move 6: D Avarage accept rate = 0.903
+D Current t: 280
+D Markov move 7: D Avarage accept rate = 0.89997
+D Current t: 365
+D Markov move 8: D Avarage accept rate = 0.8995
+D Current t: 418
+D Markov move 9: D Avarage accept rate = 0.90185
+D Current t: 426
+D Markov move 10: D Avarage accept rate = 0.90632
+D Current t: 427
+D Markov move 11: D Avarage accept rate = 0.92185
+D Current t: 430
+D Markov move 12: D Avarage accept rate = 0.95462
+D Current t: 432
+D Markov move 13: D Avarage accept rate = 0.92487
+D Current t: 439
+D Markov move 14: D Avarage accept rate = 0.9282
+D Current t: 445
+D Markov move 15: D Avarage accept rate = 0.93062
+D Current t: 451
+D Markov move 16: D Avarage accept rate = 0.9318
+D Current t: 462
+D Markov move 17: D Avarage accept rate = 0.93477
+D Current t: 547
+D Markov move 18: D Avarage accept rate = 0.93202
+D Current t: 645
+D Markov move 19: D Avarage accept rate = 0.93005
+D Current t: 801
+D Markov move 20: D Avarage accept rate = 0.92615
+D Current t: 857
+D Markov move 21: D Avarage accept rate = 0.91985
+D Current t: 928
+D Markov move 22: D Avarage accept rate = 0.92735
+D Current t: 960
+D Markov move 23: D Avarage accept rate = 0.9221
+D Current t: 973
+D Markov move 24: D Avarage accept rate = 0.9104
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.08666    
+
+=========== stock name =====================
+
+stock_name =
+
+    'SSEC'
+
+==============================================
+L Current annealing level: 657
+L Markov move 1: L Avarage accept rate = 0.6345
+L Current annealing level: 861
+L Markov move 2: L Avarage accept rate = 0.84985
+L Current annealing level: 1022
+L Markov move 3: L Avarage accept rate = 0.8891
+L Current annealing level: 1169
+L Markov move 4: L Avarage accept rate = 0.90635
+L Current annealing level: 1311
+L Markov move 5: L Avarage accept rate = 0.91315
+L Current annealing level: 1460
+L Markov move 6: L Avarage accept rate = 0.91435
+L Current annealing level: 1615
+L Markov move 7: L Avarage accept rate = 0.91515
+L Current annealing level: 1783
+L Markov move 8: L Avarage accept rate = 0.9175
+L Current annealing level: 1970
+L Markov move 9: L Avarage accept rate = 0.91565
+L Current annealing level: 2191
+L Markov move 10: L Avarage accept rate = 0.91685
+L Current annealing level: 2436
+L Markov move 11: L Avarage accept rate = 0.91475
+L Current annealing level: 2682
+L Markov move 12: L Avarage accept rate = 0.91445
+L Current annealing level: 2913
+L Markov move 13: L Avarage accept rate = 0.9126
+L Current annealing level: 3115
+L Markov move 14: L Avarage accept rate = 0.90475
+L Current annealing level: 3295
+L Markov move 15: L Avarage accept rate = 0.897
+L Current annealing level: 3466
+L Markov move 16: L Avarage accept rate = 0.8899
+L Current annealing level: 3646
+L Markov move 17: L Avarage accept rate = 0.8809
+L Current annealing level: 3831
+L Markov move 18: L Avarage accept rate = 0.88365
+L Current annealing level: 4032
+L Markov move 19: L Avarage accept rate = 0.883
+L Current annealing level: 4234
+L Markov move 20: L Avarage accept rate = 0.8898
+L Current annealing level: 4429
+L Markov move 21: L Avarage accept rate = 0.89855
+L Current annealing level: 4623
+L Markov move 22: L Avarage accept rate = 0.90225
+L Current annealing level: 4810
+L Markov move 23: L Avarage accept rate = 0.9047
+L Current annealing level: 4995
+L Markov move 24: L Avarage accept rate = 0.9049
+L Current annealing level: 5189
+L Markov move 25: L Avarage accept rate = 0.91235
+L Current annealing level: 5403
+L Markov move 26: L Avarage accept rate = 0.90555
+L Current annealing level: 5653
+L Markov move 27: L Avarage accept rate = 0.90605
+L Current annealing level: 5941
+L Markov move 28: L Avarage accept rate = 0.90655
+L Current annealing level: 6262
+L Markov move 29: L Avarage accept rate = 0.90625
+L Current annealing level: 6613
+L Markov move 30: L Avarage accept rate = 0.90545
+L Current annealing level: 6974
+L Markov move 31: L Avarage accept rate = 0.9036
+L Current annealing level: 7322
+L Markov move 32: L Avarage accept rate = 0.89885
+L Current annealing level: 7668
+L Markov move 33: L Avarage accept rate = 0.89695
+L Current annealing level: 8021
+L Markov move 34: L Avarage accept rate = 0.89735
+L Current annealing level: 8399
+L Markov move 35: L Avarage accept rate = 0.8967
+L Current annealing level: 8823
+L Markov move 36: L Avarage accept rate = 0.90105
+L Current annealing level: 9287
+L Markov move 37: L Avarage accept rate = 0.89352
+L Current annealing level: 9781
+L Markov move 38: L Avarage accept rate = 0.8866
+L Current annealing level: 10001
+L Markov move 39: L Avarage accept rate = 0.88512
+L Marginal likelihood: -5064.3332
+D Current t: 27
+D Markov move 1: D Avarage accept rate = 0.882
+D Current t: 82
+D Markov move 2: D Avarage accept rate = 0.87837
+D Current t: 103
+D Markov move 3: D Avarage accept rate = 0.87575
+D Current t: 134
+D Markov move 4: D Avarage accept rate = 0.88067
+D Current t: 167
+D Markov move 5: D Avarage accept rate = 0.87947
+D Current t: 201
+D Markov move 6: D Avarage accept rate = 0.88035
+D Current t: 238
+D Markov move 7: D Avarage accept rate = 0.88112
+D Current t: 278
+D Markov move 8: D Avarage accept rate = 0.8803
+D Current t: 282
+D Markov move 9: D Avarage accept rate = 0.8778
+D Current t: 310
+D Markov move 10: D Avarage accept rate = 0.87692
+D Current t: 338
+D Markov move 11: D Avarage accept rate = 0.87505
+D Current t: 364
+D Markov move 12: D Avarage accept rate = 0.87767
+D Current t: 365
+D Markov move 13: D Avarage accept rate = 0.8747
+D Current t: 391
+D Markov move 14: D Avarage accept rate = 0.8752
+D Current t: 418
+D Markov move 15: D Avarage accept rate = 0.8612
+D Current t: 437
+D Markov move 16: D Avarage accept rate = 0.85852
+D Current t: 452
+D Markov move 17: D Avarage accept rate = 0.85805
+D Current t: 478
+D Markov move 18: D Avarage accept rate = 0.85455
+D Current t: 493
+D Markov move 19: D Avarage accept rate = 0.84322
+D Current t: 519
+D Markov move 20: D Avarage accept rate = 0.84372
+D Current t: 530
+D Markov move 21: D Avarage accept rate = 0.78937
+D Current t: 536
+D Markov move 22: D Avarage accept rate = 0.75348
+D Current t: 576
+D Markov move 23: D Avarage accept rate = 0.74887
+D Current t: 606
+D Markov move 24: D Avarage accept rate = 0.73318
+D Current t: 635
+D Markov move 25: D Avarage accept rate = 0.72077
+D Current t: 675
+D Markov move 26: D Avarage accept rate = 0.72705
+D Current t: 715
+D Markov move 27: D Avarage accept rate = 0.72663
+D Current t: 746
+D Markov move 28: D Avarage accept rate = 0.71337
+D Current t: 763
+D Markov move 29: D Avarage accept rate = 0.71568
+D Current t: 780
+D Markov move 30: D Avarage accept rate = 0.8178
+D Current t: 823
+D Markov move 31: D Avarage accept rate = 0.82045
+D Current t: 860
+D Markov move 32: D Avarage accept rate = 0.82413
+D Current t: 891
+D Markov move 33: D Avarage accept rate = 0.81815
+D Current t: 926
+D Markov move 34: D Avarage accept rate = 0.8432
+D Current t: 927
+D Markov move 35: D Avarage accept rate = 0.85127
+D Current t: 931
+D Markov move 36: D Avarage accept rate = 0.82722
+D Current t: 958
+D Markov move 37: D Avarage accept rate = 0.80965
+D Current t: 976
+D Markov move 38: D Avarage accept rate = 0.82008
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.088708   
+
+=========== stock name =====================
+
+stock_name =
+
+    'SSMI'
+
+==============================================
+L Current annealing level: 637
+L Markov move 1: L Avarage accept rate = 0.50735
+L Current annealing level: 828
+L Markov move 2: L Avarage accept rate = 0.83305
+L Current annealing level: 978
+L Markov move 3: L Avarage accept rate = 0.8825
+L Current annealing level: 1113
+L Markov move 4: L Avarage accept rate = 0.90395
+L Current annealing level: 1246
+L Markov move 5: L Avarage accept rate = 0.91485
+L Current annealing level: 1380
+L Markov move 6: L Avarage accept rate = 0.91805
+L Current annealing level: 1516
+L Markov move 7: L Avarage accept rate = 0.92195
+L Current annealing level: 1659
+L Markov move 8: L Avarage accept rate = 0.9236
+L Current annealing level: 1815
+L Markov move 9: L Avarage accept rate = 0.92555
+L Current annealing level: 1989
+L Markov move 10: L Avarage accept rate = 0.9326
+L Current annealing level: 2182
+L Markov move 11: L Avarage accept rate = 0.92875
+L Current annealing level: 2394
+L Markov move 12: L Avarage accept rate = 0.929
+L Current annealing level: 2628
+L Markov move 13: L Avarage accept rate = 0.93215
+L Current annealing level: 2886
+L Markov move 14: L Avarage accept rate = 0.93175
+L Current annealing level: 3161
+L Markov move 15: L Avarage accept rate = 0.9275
+L Current annealing level: 3432
+L Markov move 16: L Avarage accept rate = 0.9245
+L Current annealing level: 3685
+L Markov move 17: L Avarage accept rate = 0.91935
+L Current annealing level: 3903
+L Markov move 18: L Avarage accept rate = 0.90695
+L Current annealing level: 4088
+L Markov move 19: L Avarage accept rate = 0.88405
+L Current annealing level: 4249
+L Markov move 20: L Avarage accept rate = 0.87825
+L Current annealing level: 4404
+L Markov move 21: L Avarage accept rate = 0.85275
+L Current annealing level: 4563
+L Markov move 22: L Avarage accept rate = 0.83015
+L Current annealing level: 4739
+L Markov move 23: L Avarage accept rate = 0.79955
+L Current annealing level: 4938
+L Markov move 24: L Avarage accept rate = 0.78515
+L Current annealing level: 5153
+L Markov move 25: L Avarage accept rate = 0.7791
+L Current annealing level: 5374
+L Markov move 26: L Avarage accept rate = 0.7539
+L Current annealing level: 5604
+L Markov move 27: L Avarage accept rate = 0.74015
+L Current annealing level: 5847
+L Markov move 28: L Avarage accept rate = 0.71295
+L Current annealing level: 6097
+L Markov move 29: L Avarage accept rate = 0.7093
+L Current annealing level: 6361
+L Markov move 30: L Avarage accept rate = 0.7042
+L Current annealing level: 6647
+L Markov move 31: L Avarage accept rate = 0.69755
+L Current annealing level: 6933
+L Markov move 32: L Avarage accept rate = 0.7005
+L Current annealing level: 7219
+L Markov move 33: L Avarage accept rate = 0.70745
+L Current annealing level: 7493
+L Markov move 34: L Avarage accept rate = 0.72035
+L Current annealing level: 7767
+L Markov move 35: L Avarage accept rate = 0.7535
+L Current annealing level: 8047
+L Markov move 36: L Avarage accept rate = 0.7845
+L Current annealing level: 8347
+L Markov move 37: L Avarage accept rate = 0.8072
+L Current annealing level: 8678
+L Markov move 38: L Avarage accept rate = 0.8389
+L Current annealing level: 9057
+L Markov move 39: L Avarage accept rate = 0.8784
+L Current annealing level: 9479
+L Markov move 40: L Avarage accept rate = 0.87887
+L Current annealing level: 9960
+L Markov move 41: L Avarage accept rate = 0.88822
+L Current annealing level: 10001
+L Markov move 42: L Avarage accept rate = 0.8861
+L Marginal likelihood: -4186.1386
+D Current t: 42
+D Markov move 1: D Avarage accept rate = 0.88137
+D Current t: 114
+D Markov move 2: D Avarage accept rate = 0.88037
+D Current t: 173
+D Markov move 3: D Avarage accept rate = 0.8839
+D Current t: 209
+D Markov move 4: D Avarage accept rate = 0.8789
+D Current t: 278
+D Markov move 5: D Avarage accept rate = 0.8794
+D Current t: 327
+D Markov move 6: D Avarage accept rate = 0.88195
+D Current t: 414
+D Markov move 7: D Avarage accept rate = 0.87877
+D Current t: 418
+D Markov move 8: D Avarage accept rate = 0.83023
+D Current t: 421
+D Markov move 9: D Avarage accept rate = 0.85792
+D Current t: 422
+D Markov move 10: D Avarage accept rate = 0.93672
+D Current t: 427
+D Markov move 11: D Avarage accept rate = 0.92877
+D Current t: 432
+D Markov move 12: D Avarage accept rate = 0.92082
+D Current t: 448
+D Markov move 13: D Avarage accept rate = 0.9166
+D Current t: 519
+D Markov move 14: D Avarage accept rate = 0.91227
+D Current t: 751
+D Markov move 15: D Avarage accept rate = 0.91875
+D Current t: 818
+D Markov move 16: D Avarage accept rate = 0.91227
+D Current t: 921
+D Markov move 17: D Avarage accept rate = 0.91455
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.070542   
+
+=========== stock name =====================
+
+stock_name =
+
+    'STI'
+
+==============================================
+L Current annealing level: 637
+L Markov move 1: L Avarage accept rate = 0.25115
+L Current annealing level: 826
+L Markov move 2: L Avarage accept rate = 0.77235
+L Current annealing level: 978
+L Markov move 3: L Avarage accept rate = 0.87785
+L Current annealing level: 1115
+L Markov move 4: L Avarage accept rate = 0.90225
+L Current annealing level: 1247
+L Markov move 5: L Avarage accept rate = 0.9128
+L Current annealing level: 1379
+L Markov move 6: L Avarage accept rate = 0.91655
+L Current annealing level: 1517
+L Markov move 7: L Avarage accept rate = 0.9222
+L Current annealing level: 1660
+L Markov move 8: L Avarage accept rate = 0.9232
+L Current annealing level: 1813
+L Markov move 9: L Avarage accept rate = 0.9313
+L Current annealing level: 1978
+L Markov move 10: L Avarage accept rate = 0.9263
+L Current annealing level: 2159
+L Markov move 11: L Avarage accept rate = 0.9303
+L Current annealing level: 2360
+L Markov move 12: L Avarage accept rate = 0.9317
+L Current annealing level: 2596
+L Markov move 13: L Avarage accept rate = 0.9314
+L Current annealing level: 2875
+L Markov move 14: L Avarage accept rate = 0.9331
+L Current annealing level: 3203
+L Markov move 15: L Avarage accept rate = 0.9339
+L Current annealing level: 3591
+L Markov move 16: L Avarage accept rate = 0.93165
+L Current annealing level: 4028
+L Markov move 17: L Avarage accept rate = 0.92955
+L Current annealing level: 4500
+L Markov move 18: L Avarage accept rate = 0.9281
+L Current annealing level: 4935
+L Markov move 19: L Avarage accept rate = 0.922
+L Current annealing level: 5311
+L Markov move 20: L Avarage accept rate = 0.9076
+L Current annealing level: 5626
+L Markov move 21: L Avarage accept rate = 0.88265
+L Current annealing level: 5891
+L Markov move 22: L Avarage accept rate = 0.85245
+L Current annealing level: 6143
+L Markov move 23: L Avarage accept rate = 0.8134
+L Current annealing level: 6382
+L Markov move 24: L Avarage accept rate = 0.77575
+L Current annealing level: 6623
+L Markov move 25: L Avarage accept rate = 0.73265
+L Current annealing level: 6864
+L Markov move 26: L Avarage accept rate = 0.6839
+L Current annealing level: 7098
+L Markov move 27: L Avarage accept rate = 0.6297
+L Current annealing level: 7313
+L Markov move 28: L Avarage accept rate = 0.57705
+L Current annealing level: 7515
+L Markov move 29: L Avarage accept rate = 0.5531
+L Current annealing level: 7702
+L Markov move 30: L Avarage accept rate = 0.54305
+L Current annealing level: 7891
+L Markov move 31: L Avarage accept rate = 0.5795
+L Current annealing level: 8096
+L Markov move 32: L Avarage accept rate = 0.64185
+L Current annealing level: 8330
+L Markov move 33: L Avarage accept rate = 0.74705
+L Current annealing level: 8592
+L Markov move 34: L Avarage accept rate = 0.8305
+L Current annealing level: 8884
+L Markov move 35: L Avarage accept rate = 0.87762
+L Current annealing level: 9208
+L Markov move 36: L Avarage accept rate = 0.8957
+L Current annealing level: 9563
+L Markov move 37: L Avarage accept rate = 0.9036
+L Current annealing level: 9956
+L Markov move 38: L Avarage accept rate = 0.90375
+L Current annealing level: 10001
+L Markov move 39: L Avarage accept rate = 0.90302
+L Marginal likelihood: -4329.2564
+D Current t: 74
+D Markov move 1: D Avarage accept rate = 0.89765
+D Current t: 78
+D Markov move 2: D Avarage accept rate = 0.89492
+D Current t: 118
+D Markov move 3: D Avarage accept rate = 0.89472
+D Current t: 179
+D Markov move 4: D Avarage accept rate = 0.8978
+D Current t: 207
+D Markov move 5: D Avarage accept rate = 0.8982
+D Current t: 217
+D Markov move 6: D Avarage accept rate = 0.9001
+D Current t: 247
+D Markov move 7: D Avarage accept rate = 0.89615
+D Current t: 274
+D Markov move 8: D Avarage accept rate = 0.89865
+D Current t: 279
+D Markov move 9: D Avarage accept rate = 0.89485
+D Current t: 292
+D Markov move 10: D Avarage accept rate = 0.8992
+D Current t: 346
+D Markov move 11: D Avarage accept rate = 0.89295
+D Current t: 371
+D Markov move 12: D Avarage accept rate = 0.8886
+D Current t: 395
+D Markov move 13: D Avarage accept rate = 0.88897
+D Current t: 399
+D Markov move 14: D Avarage accept rate = 0.8864
+D Current t: 407
+D Markov move 15: D Avarage accept rate = 0.88707
+D Current t: 422
+D Markov move 16: D Avarage accept rate = 0.88285
+D Current t: 427
+D Markov move 17: D Avarage accept rate = 0.8778
+D Current t: 428
+D Markov move 18: D Avarage accept rate = 0.88292
+D Current t: 431
+D Markov move 19: D Avarage accept rate = 0.92495
+D Current t: 435
+D Markov move 20: D Avarage accept rate = 0.91132
+D Current t: 438
+D Markov move 21: D Avarage accept rate = 0.93665
+D Current t: 444
+D Markov move 22: D Avarage accept rate = 0.93135
+D Current t: 457
+D Markov move 23: D Avarage accept rate = 0.93372
+D Current t: 479
+D Markov move 24: D Avarage accept rate = 0.93905
+D Current t: 596
+D Markov move 25: D Avarage accept rate = 0.93572
+D Current t: 682
+D Markov move 26: D Avarage accept rate = 0.9333
+D Current t: 803
+D Markov move 27: D Avarage accept rate = 0.93482
+D Current t: 852
+D Markov move 28: D Avarage accept rate = 0.92682
+D Current t: 856
+D Markov move 29: D Avarage accept rate = 0.93015
+D Current t: 871
+D Markov move 30: D Avarage accept rate = 0.93407
+D Current t: 961
+D Markov move 31: D Avarage accept rate = 0.92772
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.064282   
+
+=========== stock name =====================
+
+stock_name =
+
+    'STOXX50E'
+
+==============================================
+L Current annealing level: 647
+L Markov move 1: L Avarage accept rate = 0.50135
+L Current annealing level: 839
+L Markov move 2: L Avarage accept rate = 0.8019
+L Current annealing level: 992
+L Markov move 3: L Avarage accept rate = 0.8601
+L Current annealing level: 1131
+L Markov move 4: L Avarage accept rate = 0.90025
+L Current annealing level: 1264
+L Markov move 5: L Avarage accept rate = 0.9126
+L Current annealing level: 1396
+L Markov move 6: L Avarage accept rate = 0.92065
+L Current annealing level: 1529
+L Markov move 7: L Avarage accept rate = 0.91985
+L Current annealing level: 1672
+L Markov move 8: L Avarage accept rate = 0.9235
+L Current annealing level: 1825
+L Markov move 9: L Avarage accept rate = 0.92365
+L Current annealing level: 1987
+L Markov move 10: L Avarage accept rate = 0.92705
+L Current annealing level: 2165
+L Markov move 11: L Avarage accept rate = 0.92655
+L Current annealing level: 2360
+L Markov move 12: L Avarage accept rate = 0.9297
+L Current annealing level: 2586
+L Markov move 13: L Avarage accept rate = 0.93165
+L Current annealing level: 2843
+L Markov move 14: L Avarage accept rate = 0.92885
+L Current annealing level: 3119
+L Markov move 15: L Avarage accept rate = 0.9354
+L Current annealing level: 3393
+L Markov move 16: L Avarage accept rate = 0.9311
+L Current annealing level: 3643
+L Markov move 17: L Avarage accept rate = 0.9203
+L Current annealing level: 3851
+L Markov move 18: L Avarage accept rate = 0.9117
+L Current annealing level: 4030
+L Markov move 19: L Avarage accept rate = 0.88795
+L Current annealing level: 4202
+L Markov move 20: L Avarage accept rate = 0.86985
+L Current annealing level: 4386
+L Markov move 21: L Avarage accept rate = 0.8603
+L Current annealing level: 4601
+L Markov move 22: L Avarage accept rate = 0.8509
+L Current annealing level: 4833
+L Markov move 23: L Avarage accept rate = 0.8561
+L Current annealing level: 5094
+L Markov move 24: L Avarage accept rate = 0.8646
+L Current annealing level: 5393
+L Markov move 25: L Avarage accept rate = 0.87455
+L Current annealing level: 5729
+L Markov move 26: L Avarage accept rate = 0.88965
+L Current annealing level: 6109
+L Markov move 27: L Avarage accept rate = 0.9048
+L Current annealing level: 6513
+L Markov move 28: L Avarage accept rate = 0.90575
+L Current annealing level: 6927
+L Markov move 29: L Avarage accept rate = 0.89805
+L Current annealing level: 7361
+L Markov move 30: L Avarage accept rate = 0.8961
+L Current annealing level: 7834
+L Markov move 31: L Avarage accept rate = 0.90295
+L Current annealing level: 8381
+L Markov move 32: L Avarage accept rate = 0.90585
+L Current annealing level: 9009
+L Markov move 33: L Avarage accept rate = 0.91407
+L Current annealing level: 9692
+L Markov move 34: L Avarage accept rate = 0.91002
+L Current annealing level: 10001
+L Markov move 35: L Avarage accept rate = 0.9071
+L Marginal likelihood: -4608.8019
+D Current t: 59
+D Markov move 1: D Avarage accept rate = 0.904
+D Current t: 99
+D Markov move 2: D Avarage accept rate = 0.9033
+D Current t: 106
+D Markov move 3: D Avarage accept rate = 0.89907
+D Current t: 147
+D Markov move 4: D Avarage accept rate = 0.89235
+D Current t: 210
+D Markov move 5: D Avarage accept rate = 0.88992
+D Current t: 249
+D Markov move 6: D Avarage accept rate = 0.88447
+D Current t: 271
+D Markov move 7: D Avarage accept rate = 0.88472
+D Current t: 344
+D Markov move 8: D Avarage accept rate = 0.87402
+D Current t: 394
+D Markov move 9: D Avarage accept rate = 0.86747
+D Current t: 414
+D Markov move 10: D Avarage accept rate = 0.86442
+D Current t: 417
+D Markov move 11: D Avarage accept rate = 0.8611
+D Current t: 422
+D Markov move 12: D Avarage accept rate = 0.85945
+D Current t: 423
+D Markov move 13: D Avarage accept rate = 0.88077
+D Current t: 426
+D Markov move 14: D Avarage accept rate = 0.90285
+D Current t: 431
+D Markov move 15: D Avarage accept rate = 0.89925
+D Current t: 436
+D Markov move 16: D Avarage accept rate = 0.9027
+D Current t: 445
+D Markov move 17: D Avarage accept rate = 0.88967
+D Current t: 463
+D Markov move 18: D Avarage accept rate = 0.88387
+D Current t: 488
+D Markov move 19: D Avarage accept rate = 0.88572
+D Current t: 523
+D Markov move 20: D Avarage accept rate = 0.87577
+D Current t: 577
+D Markov move 21: D Avarage accept rate = 0.87322
+D Current t: 585
+D Markov move 22: D Avarage accept rate = 0.8676
+D Current t: 638
+D Markov move 23: D Avarage accept rate = 0.87812
+D Current t: 684
+D Markov move 24: D Avarage accept rate = 0.8858
+D Current t: 714
+D Markov move 25: D Avarage accept rate = 0.88017
+D Current t: 747
+D Markov move 26: D Avarage accept rate = 0.87387
+D Current t: 768
+D Markov move 27: D Avarage accept rate = 0.87097
+D Current t: 808
+D Markov move 28: D Avarage accept rate = 0.8712
+D Current t: 849
+D Markov move 29: D Avarage accept rate = 0.86807
+D Current t: 919
+D Markov move 30: D Avarage accept rate = 0.86992
+D Current t: 935
+D Markov move 31: D Avarage accept rate = 0.863
+D Current t: 987
+D Markov move 32: D Avarage accept rate = 0.85753
+       <strong>Model</strong>       <strong>Quantile_Score</strong>
+    <strong>___________</strong>    <strong>______________</strong>
+
+    {'HAR-RNN'}       0.095413   
+

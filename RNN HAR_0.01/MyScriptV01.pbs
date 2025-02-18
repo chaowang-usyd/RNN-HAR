@@ -1,0 +1,8 @@
+#!/bin/bash
+#PBS -P RealEGARCH
+#PBS -l select=1:ncpus=1:mem=18GB
+#PBS -l walltime=20:00:00
+
+cd $PBS_O_WORKDIR
+module load matlab/R2020a
+matlab -nosplash -nodisplay -r "Main_HAR_RNN_normal1con" > resultsRNNHARnormal1con.out
